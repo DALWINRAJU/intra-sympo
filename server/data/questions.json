@@ -1,0 +1,3202 @@
+[
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Operating Systems",
+    "questionText": "Sample Operating Systems Question 1: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Operating Systems",
+    "questionText": "Sample Operating Systems Question 2: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Operating Systems",
+    "questionText": "Sample Operating Systems Question 3: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Operating Systems",
+    "questionText": "Sample Operating Systems Question 4: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Operating Systems",
+    "questionText": "Sample Operating Systems Question 5: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Operating Systems",
+    "questionText": "Sample Operating Systems Question 6: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Operating Systems",
+    "questionText": "Sample Operating Systems Question 7: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Operating Systems",
+    "questionText": "Sample Operating Systems Question 8: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Operating Systems",
+    "questionText": "Sample Operating Systems Question 9: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Operating Systems",
+    "questionText": "Sample Operating Systems Question 10: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Operating Systems",
+    "questionText": "Sample Operating Systems Question 11: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Operating Systems",
+    "questionText": "Sample Operating Systems Question 12: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Operating Systems",
+    "questionText": "Sample Operating Systems Question 13: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Operating Systems",
+    "questionText": "Sample Operating Systems Question 14: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Operating Systems",
+    "questionText": "Sample Operating Systems Question 15: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Operating Systems",
+    "questionText": "Sample Operating Systems Question 16: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Operating Systems",
+    "questionText": "Sample Operating Systems Question 17: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Operating Systems",
+    "questionText": "Sample Operating Systems Question 18: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Operating Systems",
+    "questionText": "Sample Operating Systems Question 19: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Operating Systems",
+    "questionText": "Sample Operating Systems Question 20: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Data Structures",
+    "questionText": "Sample Data Structures Question 1: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Data Structures",
+    "questionText": "Sample Data Structures Question 2: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Data Structures",
+    "questionText": "Sample Data Structures Question 3: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Data Structures",
+    "questionText": "Sample Data Structures Question 4: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Data Structures",
+    "questionText": "Sample Data Structures Question 5: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Data Structures",
+    "questionText": "Sample Data Structures Question 6: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Data Structures",
+    "questionText": "Sample Data Structures Question 7: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Data Structures",
+    "questionText": "Sample Data Structures Question 8: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Data Structures",
+    "questionText": "Sample Data Structures Question 9: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Data Structures",
+    "questionText": "Sample Data Structures Question 10: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Data Structures",
+    "questionText": "Sample Data Structures Question 11: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Data Structures",
+    "questionText": "Sample Data Structures Question 12: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Data Structures",
+    "questionText": "Sample Data Structures Question 13: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Data Structures",
+    "questionText": "Sample Data Structures Question 14: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Data Structures",
+    "questionText": "Sample Data Structures Question 15: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Data Structures",
+    "questionText": "Sample Data Structures Question 16: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Data Structures",
+    "questionText": "Sample Data Structures Question 17: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Data Structures",
+    "questionText": "Sample Data Structures Question 18: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Data Structures",
+    "questionText": "Sample Data Structures Question 19: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Data Structures",
+    "questionText": "Sample Data Structures Question 20: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Java",
+    "questionText": "Sample Java Question 1: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Java",
+    "questionText": "Sample Java Question 2: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Java",
+    "questionText": "Sample Java Question 3: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Java",
+    "questionText": "Sample Java Question 4: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Java",
+    "questionText": "Sample Java Question 5: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Java",
+    "questionText": "Sample Java Question 6: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Java",
+    "questionText": "Sample Java Question 7: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Java",
+    "questionText": "Sample Java Question 8: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Java",
+    "questionText": "Sample Java Question 9: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Java",
+    "questionText": "Sample Java Question 10: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Java",
+    "questionText": "Sample Java Question 11: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Java",
+    "questionText": "Sample Java Question 12: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Java",
+    "questionText": "Sample Java Question 13: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Java",
+    "questionText": "Sample Java Question 14: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Java",
+    "questionText": "Sample Java Question 15: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Java",
+    "questionText": "Sample Java Question 16: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Java",
+    "questionText": "Sample Java Question 17: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Java",
+    "questionText": "Sample Java Question 18: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Java",
+    "questionText": "Sample Java Question 19: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Java",
+    "questionText": "Sample Java Question 20: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Python",
+    "questionText": "Sample Python Question 1: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Python",
+    "questionText": "Sample Python Question 2: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Python",
+    "questionText": "Sample Python Question 3: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Python",
+    "questionText": "Sample Python Question 4: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Python",
+    "questionText": "Sample Python Question 5: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Python",
+    "questionText": "Sample Python Question 6: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Python",
+    "questionText": "Sample Python Question 7: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Python",
+    "questionText": "Sample Python Question 8: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Python",
+    "questionText": "Sample Python Question 9: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Python",
+    "questionText": "Sample Python Question 10: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Python",
+    "questionText": "Sample Python Question 11: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Python",
+    "questionText": "Sample Python Question 12: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Python",
+    "questionText": "Sample Python Question 13: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Python",
+    "questionText": "Sample Python Question 14: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Python",
+    "questionText": "Sample Python Question 15: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Python",
+    "questionText": "Sample Python Question 16: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Python",
+    "questionText": "Sample Python Question 17: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Python",
+    "questionText": "Sample Python Question 18: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Python",
+    "questionText": "Sample Python Question 19: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "Python",
+    "questionText": "Sample Python Question 20: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "OOSE",
+    "questionText": "Sample OOSE Question 1: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "OOSE",
+    "questionText": "Sample OOSE Question 2: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "OOSE",
+    "questionText": "Sample OOSE Question 3: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "OOSE",
+    "questionText": "Sample OOSE Question 4: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "OOSE",
+    "questionText": "Sample OOSE Question 5: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "OOSE",
+    "questionText": "Sample OOSE Question 6: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "OOSE",
+    "questionText": "Sample OOSE Question 7: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "OOSE",
+    "questionText": "Sample OOSE Question 8: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "OOSE",
+    "questionText": "Sample OOSE Question 9: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "OOSE",
+    "questionText": "Sample OOSE Question 10: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "OOSE",
+    "questionText": "Sample OOSE Question 11: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "OOSE",
+    "questionText": "Sample OOSE Question 12: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "OOSE",
+    "questionText": "Sample OOSE Question 13: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "OOSE",
+    "questionText": "Sample OOSE Question 14: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "OOSE",
+    "questionText": "Sample OOSE Question 15: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "OOSE",
+    "questionText": "Sample OOSE Question 16: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "OOSE",
+    "questionText": "Sample OOSE Question 17: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "OOSE",
+    "questionText": "Sample OOSE Question 18: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "OOSE",
+    "questionText": "Sample OOSE Question 19: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "mcq",
+    "level": 1,
+    "category": "OOSE",
+    "questionText": "Sample OOSE Question 20: Which of the following is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A"
+      },
+      {
+        "label": "B",
+        "text": "Option B"
+      },
+      {
+        "label": "C",
+        "text": "Option C"
+      },
+      {
+        "label": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "points": 5,
+    "difficulty": "medium",
+    "isActive": true
+  },
+  {
+    "type": "exit_room",
+    "level": 2,
+    "category": "Mixed Core",
+    "questionText": "Exit Room Challenge 1: Identify the correct statement.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Statement 1"
+      },
+      {
+        "label": "B",
+        "text": "Statement 2"
+      },
+      {
+        "label": "C",
+        "text": "Statement 3"
+      },
+      {
+        "label": "D",
+        "text": "Statement 4"
+      }
+    ],
+    "correctAnswer": "B",
+    "points": 10,
+    "difficulty": "hard",
+    "isActive": true
+  },
+  {
+    "type": "exit_room",
+    "level": 2,
+    "category": "Mixed Core",
+    "questionText": "Exit Room Challenge 2: Identify the correct statement.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Statement 1"
+      },
+      {
+        "label": "B",
+        "text": "Statement 2"
+      },
+      {
+        "label": "C",
+        "text": "Statement 3"
+      },
+      {
+        "label": "D",
+        "text": "Statement 4"
+      }
+    ],
+    "correctAnswer": "B",
+    "points": 10,
+    "difficulty": "hard",
+    "isActive": true
+  },
+  {
+    "type": "exit_room",
+    "level": 2,
+    "category": "Mixed Core",
+    "questionText": "Exit Room Challenge 3: Identify the correct statement.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Statement 1"
+      },
+      {
+        "label": "B",
+        "text": "Statement 2"
+      },
+      {
+        "label": "C",
+        "text": "Statement 3"
+      },
+      {
+        "label": "D",
+        "text": "Statement 4"
+      }
+    ],
+    "correctAnswer": "B",
+    "points": 10,
+    "difficulty": "hard",
+    "isActive": true
+  },
+  {
+    "type": "exit_room",
+    "level": 2,
+    "category": "Mixed Core",
+    "questionText": "Exit Room Challenge 4: Identify the correct statement.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Statement 1"
+      },
+      {
+        "label": "B",
+        "text": "Statement 2"
+      },
+      {
+        "label": "C",
+        "text": "Statement 3"
+      },
+      {
+        "label": "D",
+        "text": "Statement 4"
+      }
+    ],
+    "correctAnswer": "B",
+    "points": 10,
+    "difficulty": "hard",
+    "isActive": true
+  },
+  {
+    "type": "exit_room",
+    "level": 2,
+    "category": "Mixed Core",
+    "questionText": "Exit Room Challenge 5: Identify the correct statement.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Statement 1"
+      },
+      {
+        "label": "B",
+        "text": "Statement 2"
+      },
+      {
+        "label": "C",
+        "text": "Statement 3"
+      },
+      {
+        "label": "D",
+        "text": "Statement 4"
+      }
+    ],
+    "correctAnswer": "B",
+    "points": 10,
+    "difficulty": "hard",
+    "isActive": true
+  },
+  {
+    "type": "exit_room",
+    "level": 2,
+    "category": "Mixed Core",
+    "questionText": "Exit Room Challenge 6: Identify the correct statement.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Statement 1"
+      },
+      {
+        "label": "B",
+        "text": "Statement 2"
+      },
+      {
+        "label": "C",
+        "text": "Statement 3"
+      },
+      {
+        "label": "D",
+        "text": "Statement 4"
+      }
+    ],
+    "correctAnswer": "B",
+    "points": 10,
+    "difficulty": "hard",
+    "isActive": true
+  },
+  {
+    "type": "exit_room",
+    "level": 2,
+    "category": "Mixed Core",
+    "questionText": "Exit Room Challenge 7: Identify the correct statement.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Statement 1"
+      },
+      {
+        "label": "B",
+        "text": "Statement 2"
+      },
+      {
+        "label": "C",
+        "text": "Statement 3"
+      },
+      {
+        "label": "D",
+        "text": "Statement 4"
+      }
+    ],
+    "correctAnswer": "B",
+    "points": 10,
+    "difficulty": "hard",
+    "isActive": true
+  },
+  {
+    "type": "exit_room",
+    "level": 2,
+    "category": "Mixed Core",
+    "questionText": "Exit Room Challenge 8: Identify the correct statement.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Statement 1"
+      },
+      {
+        "label": "B",
+        "text": "Statement 2"
+      },
+      {
+        "label": "C",
+        "text": "Statement 3"
+      },
+      {
+        "label": "D",
+        "text": "Statement 4"
+      }
+    ],
+    "correctAnswer": "B",
+    "points": 10,
+    "difficulty": "hard",
+    "isActive": true
+  },
+  {
+    "type": "exit_room",
+    "level": 2,
+    "category": "Mixed Core",
+    "questionText": "Exit Room Challenge 9: Identify the correct statement.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Statement 1"
+      },
+      {
+        "label": "B",
+        "text": "Statement 2"
+      },
+      {
+        "label": "C",
+        "text": "Statement 3"
+      },
+      {
+        "label": "D",
+        "text": "Statement 4"
+      }
+    ],
+    "correctAnswer": "B",
+    "points": 10,
+    "difficulty": "hard",
+    "isActive": true
+  },
+  {
+    "type": "exit_room",
+    "level": 2,
+    "category": "Mixed Core",
+    "questionText": "Exit Room Challenge 10: Identify the correct statement.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Statement 1"
+      },
+      {
+        "label": "B",
+        "text": "Statement 2"
+      },
+      {
+        "label": "C",
+        "text": "Statement 3"
+      },
+      {
+        "label": "D",
+        "text": "Statement 4"
+      }
+    ],
+    "correctAnswer": "B",
+    "points": 10,
+    "difficulty": "hard",
+    "isActive": true
+  },
+  {
+    "type": "guess_output",
+    "level": 3,
+    "category": "Java",
+    "questionText": "What is the exact output of this code snippet?",
+    "codeSnippet": "public class Main {\n  public static void main(String[] args) {\n    System.out.print(1 + 2);\n  }\n}",
+    "language": "java",
+    "correctAnswer": "3",
+    "points": 10,
+    "difficulty": "hard",
+    "isActive": true
+  },
+  {
+    "type": "guess_output",
+    "level": 3,
+    "category": "Python",
+    "questionText": "What is the exact output of this code snippet?",
+    "codeSnippet": "for i in range(2):\n    print(i, end=\"\")",
+    "language": "python",
+    "correctAnswer": "01",
+    "points": 10,
+    "difficulty": "hard",
+    "isActive": true
+  },
+  {
+    "type": "guess_output",
+    "level": 3,
+    "category": "Java",
+    "questionText": "What is the exact output of this code snippet?",
+    "codeSnippet": "public class Main {\n  public static void main(String[] args) {\n    System.out.print(1 + 2);\n  }\n}",
+    "language": "java",
+    "correctAnswer": "3",
+    "points": 10,
+    "difficulty": "hard",
+    "isActive": true
+  },
+  {
+    "type": "guess_output",
+    "level": 3,
+    "category": "Python",
+    "questionText": "What is the exact output of this code snippet?",
+    "codeSnippet": "for i in range(2):\n    print(i, end=\"\")",
+    "language": "python",
+    "correctAnswer": "01",
+    "points": 10,
+    "difficulty": "hard",
+    "isActive": true
+  },
+  {
+    "type": "guess_output",
+    "level": 3,
+    "category": "Java",
+    "questionText": "What is the exact output of this code snippet?",
+    "codeSnippet": "public class Main {\n  public static void main(String[] args) {\n    System.out.print(1 + 2);\n  }\n}",
+    "language": "java",
+    "correctAnswer": "3",
+    "points": 10,
+    "difficulty": "hard",
+    "isActive": true
+  },
+  {
+    "type": "guess_output",
+    "level": 3,
+    "category": "Python",
+    "questionText": "What is the exact output of this code snippet?",
+    "codeSnippet": "for i in range(2):\n    print(i, end=\"\")",
+    "language": "python",
+    "correctAnswer": "01",
+    "points": 10,
+    "difficulty": "hard",
+    "isActive": true
+  },
+  {
+    "type": "guess_output",
+    "level": 3,
+    "category": "Java",
+    "questionText": "What is the exact output of this code snippet?",
+    "codeSnippet": "public class Main {\n  public static void main(String[] args) {\n    System.out.print(1 + 2);\n  }\n}",
+    "language": "java",
+    "correctAnswer": "3",
+    "points": 10,
+    "difficulty": "hard",
+    "isActive": true
+  },
+  {
+    "type": "guess_output",
+    "level": 3,
+    "category": "Python",
+    "questionText": "What is the exact output of this code snippet?",
+    "codeSnippet": "for i in range(2):\n    print(i, end=\"\")",
+    "language": "python",
+    "correctAnswer": "01",
+    "points": 10,
+    "difficulty": "hard",
+    "isActive": true
+  },
+  {
+    "type": "guess_output",
+    "level": 3,
+    "category": "Java",
+    "questionText": "What is the exact output of this code snippet?",
+    "codeSnippet": "public class Main {\n  public static void main(String[] args) {\n    System.out.print(1 + 2);\n  }\n}",
+    "language": "java",
+    "correctAnswer": "3",
+    "points": 10,
+    "difficulty": "hard",
+    "isActive": true
+  },
+  {
+    "type": "guess_output",
+    "level": 3,
+    "category": "Python",
+    "questionText": "What is the exact output of this code snippet?",
+    "codeSnippet": "for i in range(2):\n    print(i, end=\"\")",
+    "language": "python",
+    "correctAnswer": "01",
+    "points": 10,
+    "difficulty": "hard",
+    "isActive": true
+  }
+]
