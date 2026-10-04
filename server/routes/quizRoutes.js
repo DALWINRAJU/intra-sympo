@@ -13,7 +13,9 @@ router.use(requireRole('participant'));
 
 const submitLimiter = rateLimit({
   windowMs: 15 * 60 * 1000, 
-  max: 60, 
+  max: 500, // 500 answer submissions per participant
+  keyGenerator: (req) => (req.user?.id ? req.user.id.toString() : req.ip),
+  validate: { keyGeneratorIpFallback: false },
   message: { success: false, message: 'Too many answer submissions, please slow down' }
 });
 

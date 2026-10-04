@@ -1,8 +1,11 @@
 import { useCompetition } from '../../hooks/useCompetition';
+import { useAuth } from '../../hooks/useAuth';
 import { useNavigate } from 'react-router-dom';
+import { STATUS_ROUTE_MAP } from '../../utils/constants';
 
 const LobbyPage = () => {
   const { startCompetition, loading, error, session } = useCompetition();
+  const { user, logout } = useAuth();
   const navigate = useNavigate();
 
   if (loading) {
@@ -13,13 +16,36 @@ const LobbyPage = () => {
     try {
       await startCompetition();
     } catch (e) {
-      // Error handled natively in context
+      // Error handled in context
     }
   };
 
+  // If the session is completed or eliminated, go to results
+  if (session && (session.status === 'COMPLETED' || session.status === 'ELIMINATED')) {
+    return (
+      <div className="card max-w-2xl mx-auto w-full text-center">
+        <h1 className="text-3xl font-bold text-white mb-4">Competition Finished</h1>
+        <p className="text-gray-400 mb-6">You have already completed this competition.</p>
+        <div className="space-y-3">
+          <button onClick={() => navigate('/result')} className="btn-primary w-full text-lg py-4">
+            View Your Results
+          </button>
+          <button onClick={logout} className="w-full text-lg py-4 rounded-lg bg-gray-700 hover:bg-gray-600 text-white font-bold transition-colors">
+            Logout
+          </button>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="card max-w-2xl mx-auto w-full">
-      <h1 className="text-3xl font-bold text-white mb-6 text-center">Symposium Technical Quiz</h1>
+      <h1 className="text-3xl font-bold text-white mb-2 text-center">Symposium Technical Quiz</h1>
+      {user && (
+        <p className="text-center text-gray-400 mb-6 text-sm">
+          Welcome, <span className="text-indigo-400 font-semibold">{user.fullName || user.participantId}</span>
+        </p>
+      )}
       
       <div className="space-y-6 text-gray-300">
         <div className="bg-gray-800/50 p-4 rounded-lg border border-gray-700">
@@ -54,16 +80,35 @@ const LobbyPage = () => {
         </div>
       )}
 
-      <div className="mt-8">
+      <div className="mt-8 space-y-3">
         {session ? (
-          <button onClick={() => navigate('/level/1')} className="btn-primary w-full text-lg py-4">
-            Resume Competition
+          <button onClick={async () => {
+            // Get correct resume page from session status
+            const resumeRoute = STATUS_ROUTE_MAP[session.status] || '/level/1';
+            try {
+              if (document.documentElement.requestFullscreen) {
+                await document.documentElement.requestFullscreen();
+              }
+            } catch (err) { console.error(err); }
+            navigate(resumeRoute);
+          }} className="btn-primary w-full text-lg py-4">
+            Resume Competition (Level {session?.status?.includes('LEVEL_2') ? 2 : session?.status?.includes('LEVEL_3') ? 3 : (session?.currentLevel || 1)})
           </button>
         ) : (
-          <button onClick={onStart} className="btn-primary w-full text-lg py-4 bg-green-600 hover:bg-green-500">
+          <button onClick={async () => {
+            try {
+              if (document.documentElement.requestFullscreen) {
+                await document.documentElement.requestFullscreen();
+              }
+            } catch (err) { console.error(err); }
+            onStart();
+          }} className="btn-primary w-full text-lg py-4 bg-green-600 hover:bg-green-500">
             START GAME
           </button>
         )}
+        <button onClick={logout} className="w-full text-lg py-3 rounded-lg bg-gray-700 hover:bg-gray-600 text-white font-bold transition-colors">
+          Logout
+        </button>
       </div>
     </div>
   );

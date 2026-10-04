@@ -1,0 +1,1011 @@
+{
+  "title": "Level 2",
+  "parts": [
+{
+      "part": 2,
+      "title": "100 COMPUTER SCIENCE UNIVERSAL TRUTHS",
+      "questions": [
+        {
+          "id": 1,
+          "question": "A computer processes data according to instructions.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 2,
+          "question": "RAM is volatile memory.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 3,
+          "question": "ROM normally loses its contents when power is switched off.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "B) False",
+          "answer_letter": "B"
+        },
+        {
+          "id": 4,
+          "question": "A keyboard is an input device.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 5,
+          "question": "A monitor is an output device.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 6,
+          "question": "The CPU is often called the brain of a computer.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 7,
+          "question": "A printer is primarily an input device.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "B) False",
+          "answer_letter": "B"
+        },
+        {
+          "id": 8,
+          "question": "One byte is commonly equal to eight bits.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 9,
+          "question": "Binary number system uses digits 0 and 1.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 10,
+          "question": "A computer can work without any instructions or programs.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "B) False",
+          "answer_letter": "B"
+        },
+        {
+          "id": 11,
+          "question": "An operating system manages computer resources.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 12,
+          "question": "Windows is an operating system.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 13,
+          "question": "Linux is an operating system.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 14,
+          "question": "A process is a program in execution.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 15,
+          "question": "A thread is always an independent process.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "B) False",
+          "answer_letter": "B"
+        },
+        {
+          "id": 16,
+          "question": "Multitasking allows an operating system to manage multiple tasks.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 17,
+          "question": "Deadlock can occur when processes wait indefinitely for resources.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 18,
+          "question": "RAM is used only for permanent storage.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "B) False",
+          "answer_letter": "B"
+        },
+        {
+          "id": 19,
+          "question": "Virtual memory can use secondary storage to extend the available memory space.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 20,
+          "question": "Every operating system has exactly the same user interface.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "B) False",
+          "answer_letter": "B"
+        },
+        {
+          "id": 21,
+          "question": "A stack follows the LIFO principle.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 22,
+          "question": "A queue commonly follows the FIFO principle.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 23,
+          "question": "An array can store multiple elements.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 24,
+          "question": "A linked list consists of connected nodes.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 25,
+          "question": "Binary search works correctly on a sorted array.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 26,
+          "question": "Linear search requires the data to be sorted.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "B) False",
+          "answer_letter": "B"
+        },
+        {
+          "id": 27,
+          "question": "A tree is a non-linear data structure.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 28,
+          "question": "A graph can contain vertices and edges.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 29,
+          "question": "A stack uses enqueue and dequeue as its standard operations.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "B) False",
+          "answer_letter": "B"
+        },
+        {
+          "id": 30,
+          "question": "A queue can be implemented using an array.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 31,
+          "question": "C is a programming language.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 32,
+          "question": "C is case-sensitive.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 33,
+          "question": "The printf() function is commonly used for output in C.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 34,
+          "question": "The scanf() function is commonly used to read input in C.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 35,
+          "question": "Every C program must contain a function named start().",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "B) False",
+          "answer_letter": "B"
+        },
+        {
+          "id": 36,
+          "question": "In C, the semicolon terminates most statements.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 37,
+          "question": "The int data type is used to represent integers.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 38,
+          "question": "The while loop checks its condition before each iteration.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 39,
+          "question": "The break statement can terminate a loop.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 40,
+          "question": "The continue statement normally terminates the entire program.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "B) False",
+          "answer_letter": "B"
+        },
+        {
+          "id": 41,
+          "question": "Java is a programming language.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 42,
+          "question": "Java is case-sensitive.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 43,
+          "question": "Java source files commonly use the .java extension.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 44,
+          "question": "Java bytecode can be executed by a compatible JVM.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 45,
+          "question": "The JVM stands for Java Virtual Machine.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 46,
+          "question": "Java programs can never run on different operating systems.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "B) False",
+          "answer_letter": "B"
+        },
+        {
+          "id": 47,
+          "question": "System.out.println() can print output in Java.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 48,
+          "question": "Java supports classes and objects.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 49,
+          "question": "Java uses malloc() as its standard object-creation operator.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "B) False",
+          "answer_letter": "B"
+        },
+        {
+          "id": 50,
+          "question": "Java supports exception handling.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 51,
+          "question": "Encapsulation combines data and methods within a unit such as a class.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 52,
+          "question": "Inheritance allows a class to derive features from another class.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 53,
+          "question": "Polymorphism means an object or interface can take different forms.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 54,
+          "question": "Abstraction helps hide unnecessary implementation details.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 55,
+          "question": "A constructor is commonly used to initialize an object.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 56,
+          "question": "Every Java class must have a programmer-written constructor.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "B) False",
+          "answer_letter": "B"
+        },
+        {
+          "id": 57,
+          "question": "Method overloading uses the same method name with different parameter lists.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 58,
+          "question": "Method overriding is associated with redefining an inherited method.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 59,
+          "question": "A private Java member can be accessed directly from every unrelated class.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "B) False",
+          "answer_letter": "B"
+        },
+        {
+          "id": 60,
+          "question": "An interface can define a contract that implementing classes follow.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 61,
+          "question": "A compiler translates source code into another form of code.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 62,
+          "question": "An algorithm is a sequence of steps for solving a problem.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 63,
+          "question": "Debugging helps identify and fix program errors.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 64,
+          "question": "A syntax error always means the program produces the wrong answer while running.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "B) False",
+          "answer_letter": "B"
+        },
+        {
+          "id": 65,
+          "question": "An infinite loop may continue indefinitely.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 66,
+          "question": "Variables can store values used by a program.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 67,
+          "question": "A function can help organize reusable code.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 68,
+          "question": "Every algorithm must use artificial intelligence.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "B) False",
+          "answer_letter": "B"
+        },
+        {
+          "id": 69,
+          "question": "Testing can help reveal software defects.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 70,
+          "question": "Comments are generally used to explain code to readers.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 71,
+          "question": "The Internet and the World Wide Web are exactly the same thing.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "B) False",
+          "answer_letter": "B"
+        },
+        {
+          "id": 72,
+          "question": "An IP address helps identify a device or network interface on a network.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 73,
+          "question": "HTTP is a protocol used for web communication.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 74,
+          "question": "HTTPS uses encryption to help protect data in transit.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 75,
+          "question": "A router can forward data between networks.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 76,
+          "question": "DNS can translate domain names into IP addresses.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 77,
+          "question": "Bluetooth is a wireless communication technology.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 78,
+          "question": "Wi-Fi always requires a physical Ethernet cable between devices.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "B) False",
+          "answer_letter": "B"
+        },
+        {
+          "id": 79,
+          "question": "A firewall can help filter network traffic.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 80,
+          "question": "Every website is automatically safe because it uses the Internet.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "B) False",
+          "answer_letter": "B"
+        },
+        {
+          "id": 81,
+          "question": "A database stores organized data.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 82,
+          "question": "SQL is commonly used to query relational databases.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 83,
+          "question": "A primary key identifies rows uniquely in a relational table.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 84,
+          "question": "A foreign key can establish a relationship between tables.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 85,
+          "question": "Every database must contain exactly one table.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "B) False",
+          "answer_letter": "B"
+        },
+        {
+          "id": 86,
+          "question": "A backup can help recover data after data loss.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 87,
+          "question": "Encryption can help protect the confidentiality of data.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 88,
+          "question": "A strong password should always be shared publicly.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "B) False",
+          "answer_letter": "B"
+        },
+        {
+          "id": 89,
+          "question": "Two-factor authentication adds an additional verification step.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 90,
+          "question": "Malware is software designed to cause harm or perform unwanted actions.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 91,
+          "question": "HTML is commonly used to structure web pages.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 92,
+          "question": "CSS is commonly used to style web pages.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 93,
+          "question": "JavaScript can add interactivity to web pages.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 94,
+          "question": "HTML is a general-purpose programming language in the same sense as C.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "B) False",
+          "answer_letter": "B"
+        },
+        {
+          "id": 95,
+          "question": "An API can allow software systems to communicate.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 96,
+          "question": "Cloud computing can provide computing resources over a network.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 97,
+          "question": "Open-source software always means that the software is completely free of cost.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "B) False",
+          "answer_letter": "B"
+        },
+        {
+          "id": 98,
+          "question": "Git is a version control system.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 99,
+          "question": "Artificial intelligence can be used for image recognition.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "A) True",
+          "answer_letter": "A"
+        },
+        {
+          "id": 100,
+          "question": "All computer programs require an Internet connection to run.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "answer": "B) False",
+          "answer_letter": "B"
+        }
+      ]
+    }
+    ]
+}

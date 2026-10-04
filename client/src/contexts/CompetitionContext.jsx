@@ -16,15 +16,21 @@ export const CompetitionProvider = ({ children }) => {
   const [error, setError] = useState(null);
 
   const fetchSession = useCallback(async () => {
-    if (!isAuthenticated) return;
+    if (!isAuthenticated) {
+      setLoading(false);
+      return;
+    }
     try {
       setLoading(true);
       const data = await getCurrentSession();
       setSession(data.session);
     } catch (err) {
+      // 404 = no session yet, that's perfectly normal for a new participant
       if (err.response?.status !== 404) {
-        setError('Failed to load session');
+        console.error('Session fetch error:', err.response?.status);
       }
+      // Don't show error for 404 — it just means no session started yet
+      setSession(null);
     } finally {
       setLoading(false);
     }
@@ -52,13 +58,22 @@ export const CompetitionProvider = ({ children }) => {
       const targetRoute = STATUS_ROUTE_MAP[data.session.status];
       if (targetRoute) navigate(targetRoute);
     } catch (err) {
-      setError(err.response?.data?.message || 'Failed to start competition');
+      const msg = err.response?.data?.message || 'Failed to start competition';
+      setError(msg);
       throw err;
     }
   };
 
+  // Call this after any score change to refresh the header
+  const refreshScore = useCallback(async () => {
+    try {
+      const data = await getCurrentSession();
+      setSession(data.session);
+    } catch (_) {}
+  }, []);
+
   return (
-    <CompetitionContext.Provider value={{ session, loading, error, fetchSession, startCompetition: handleStart, setSession }}>
+    <CompetitionContext.Provider value={{ session, loading, error, fetchSession, startCompetition: handleStart, setSession, refreshScore }}>
       {children}
     </CompetitionContext.Provider>
   );

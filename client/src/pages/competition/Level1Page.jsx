@@ -5,7 +5,7 @@ import { useCompetition } from '../../hooks/useCompetition';
 
 const Level1Page = () => {
   const navigate = useNavigate();
-  const { fetchSession } = useCompetition();
+  const { refreshScore } = useCompetition();
 
   const [questionData, setQuestionData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -50,9 +50,8 @@ const Level1Page = () => {
         isLevelComplete: data.isLevelComplete,
         pointsAwarded: data.pointsAwarded
       });
-      
-      // Update the global CompetitionContext score invisibly
-      fetchSession();
+      // Refresh header score
+      refreshScore();
     } catch (err) {
       setError(err.response?.data?.message || 'Failed to submit answer');
     } finally {
@@ -64,7 +63,7 @@ const Level1Page = () => {
     if (feedback?.isLevelComplete) {
       try {
         await advanceLevel(2);
-        await fetchSession(); // The context router will auto-navigate to /level/2
+        navigate('/level/2');
       } catch (err) {
         setError('Failed to advance to Level 2');
       }
@@ -123,8 +122,10 @@ const Level1Page = () => {
                 onClick={() => setSelectedOption(opt.label)}
                 className={btnClass}
               >
-                <span className="font-bold mr-3 text-gray-400">{opt.label}.</span>
-                {opt.text}
+                <div className="flex items-center text-left">
+                  <span className="font-bold w-8 text-gray-400 shrink-0">{opt.label}.</span>
+                  <span>{opt.text}</span>
+                </div>
               </button>
             );
           })}

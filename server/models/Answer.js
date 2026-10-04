@@ -10,7 +10,7 @@ const answerSchema = new mongoose.Schema({
   submittedAt: { type: Date, default: Date.now }
 });
 
-answerSchema.index({ session: 1, question: 1 }, { unique: true });
+answerSchema.index({ session: 1, question: 1 });
 answerSchema.index({ session: 1, level: 1 });
 
 module.exports = mongoose.model('Answer', answerSchema);

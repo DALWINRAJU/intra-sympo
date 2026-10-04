@@ -10,6 +10,16 @@ export const getParticipants = async (query = '') => {
   return data;
 };
 
+export const getParticipantDetail = async (id) => {
+  const { data } = await api.get(`/admin/participants/${id}`);
+  return data;
+};
+
+export const deleteParticipant = async (id) => {
+  const { data } = await api.delete(`/admin/participants/${id}`);
+  return data;
+};
+
 export const getConfig = async () => {
   const { data } = await api.get('/admin/config');
   return data;
@@ -48,6 +58,8 @@ export const updateConfig = async (configData) => {
 export default {
   getStats,
   getParticipants,
+  getParticipantDetail,
+  deleteParticipant,
   getConfig,
   updateConfig,
   changeCompetitionStatus,

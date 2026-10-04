@@ -8,11 +8,9 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const storedUser = localStorage.getItem('user');
-    const token = localStorage.getItem('token');
-    if (storedUser && token) {
-      setUser(JSON.parse(storedUser));
-    }
+    // Do NOT restore session from localStorage — every page reload requires fresh login
+    // (This enforces the anti-cheat requirement: reload = logout)
+    authServiceLogout(); // Clear any stale token in case browser didn't clear it
     setLoading(false);
   }, []);
 

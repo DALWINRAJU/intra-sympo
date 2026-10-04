@@ -1,0 +1,1213 @@
+
+
+{
+  "title": "Level 2",
+  "parts": [
+    {
+      "part": 3,
+      "title": "ODD ONE OUT – CSE TECHNICAL GAME",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "RAM",
+            "B": "ROM",
+            "C": "Cache Memory",
+            "D": "Keyboard"
+          },
+          "answer": "D) Keyboard",
+          "answer_letter": "D"
+        },
+        {
+          "id": 2,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Windows",
+            "B": "Linux",
+            "C": "Android",
+            "D": "Python"
+          },
+          "answer": "D) Python",
+          "answer_letter": "D"
+        },
+        {
+          "id": 3,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Stack",
+            "B": "Queue",
+            "C": "Linked List",
+            "D": "Compiler"
+          },
+          "answer": "D) Compiler",
+          "answer_letter": "D"
+        },
+        {
+          "id": 4,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Class",
+            "B": "Object",
+            "C": "Inheritance",
+            "D": "Keyboard"
+          },
+          "answer": "D) Keyboard",
+          "answer_letter": "D"
+        },
+        {
+          "id": 5,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "int",
+            "B": "float",
+            "C": "char",
+            "D": "while"
+          },
+          "answer": "D) while",
+          "answer_letter": "D"
+        },
+        {
+          "id": 6,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Bubble Sort",
+            "B": "Selection Sort",
+            "C": "Insertion Sort",
+            "D": "Binary Search"
+          },
+          "answer": "D) Binary Search",
+          "answer_letter": "D"
+        },
+        {
+          "id": 7,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Process",
+            "B": "Thread",
+            "C": "Scheduling",
+            "D": "Constructor"
+          },
+          "answer": "D) Constructor",
+          "answer_letter": "D"
+        },
+        {
+          "id": 8,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "public",
+            "B": "private",
+            "C": "protected",
+            "D": "static"
+          },
+          "answer": "D) static",
+          "answer_letter": "D"
+        },
+        {
+          "id": 9,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "malloc()",
+            "B": "calloc()",
+            "C": "realloc()",
+            "D": "Scanner"
+          },
+          "answer": "D) Scanner",
+          "answer_letter": "D"
+        },
+        {
+          "id": 10,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "FIFO",
+            "B": "Queue",
+            "C": "Enqueue",
+            "D": "Inheritance"
+          },
+          "answer": "D) Inheritance",
+          "answer_letter": "D"
+        },
+        {
+          "id": 11,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "JVM",
+            "B": "JRE",
+            "C": "JDK",
+            "D": "GCC"
+          },
+          "answer": "D) GCC",
+          "answer_letter": "D"
+        },
+        {
+          "id": 12,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "FCFS",
+            "B": "SJF",
+            "C": "Round Robin",
+            "D": "Binary Search"
+          },
+          "answer": "D) Binary Search",
+          "answer_letter": "D"
+        },
+        {
+          "id": 13,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Encapsulation",
+            "B": "Abstraction",
+            "C": "Inheritance",
+            "D": "Compilation"
+          },
+          "answer": "D) Compilation",
+          "answer_letter": "D"
+        },
+        {
+          "id": 14,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "ArrayList",
+            "B": "HashMap",
+            "C": "HashSet",
+            "D": "printf()"
+          },
+          "answer": "D) printf()",
+          "answer_letter": "D"
+        },
+        {
+          "id": 15,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "LIFO",
+            "B": "Stack",
+            "C": "Push",
+            "D": "Enqueue"
+          },
+          "answer": "D) Enqueue",
+          "answer_letter": "D"
+        },
+        {
+          "id": 16,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Deadlock",
+            "B": "Paging",
+            "C": "Segmentation",
+            "D": "Polymorphism"
+          },
+          "answer": "D) Polymorphism",
+          "answer_letter": "D"
+        },
+        {
+          "id": 17,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "int",
+            "B": "float",
+            "C": "double",
+            "D": "public"
+          },
+          "answer": "D) public",
+          "answer_letter": "D"
+        },
+        {
+          "id": 18,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "for",
+            "B": "while",
+            "C": "do-while",
+            "D": "class"
+          },
+          "answer": "D) class",
+          "answer_letter": "D"
+        },
+        {
+          "id": 19,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Array",
+            "B": "Stack",
+            "C": "Queue",
+            "D": "Operating System"
+          },
+          "answer": "D) Operating System",
+          "answer_letter": "D"
+        },
+        {
+          "id": 20,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Scanner",
+            "B": "System.out.println()",
+            "C": "String",
+            "D": "malloc()"
+          },
+          "answer": "D) malloc()",
+          "answer_letter": "D"
+        },
+        {
+          "id": 21,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Windows",
+            "B": "Ubuntu",
+            "C": "Fedora",
+            "D": "MySQL"
+          },
+          "answer": "D) MySQL",
+          "answer_letter": "D"
+        },
+        {
+          "id": 22,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Constructor",
+            "B": "Method",
+            "C": "Object",
+            "D": "CPU Scheduling"
+          },
+          "answer": "D) CPU Scheduling",
+          "answer_letter": "D"
+        },
+        {
+          "id": 23,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Binary Tree",
+            "B": "AVL Tree",
+            "C": "B-Tree",
+            "D": "ArrayList"
+          },
+          "answer": "D) ArrayList",
+          "answer_letter": "D"
+        },
+        {
+          "id": 24,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "printf()",
+            "B": "scanf()",
+            "C": "getchar()",
+            "D": "println()"
+          },
+          "answer": "D) println()",
+          "answer_letter": "D"
+        },
+        {
+          "id": 25,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "JVM",
+            "B": "Garbage Collection",
+            "C": "Bytecode",
+            "D": "Linked List"
+          },
+          "answer": "D) Linked List",
+          "answer_letter": "D"
+        },
+        {
+          "id": 26,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Hard Disk",
+            "B": "SSD",
+            "C": "Pen Drive",
+            "D": "Compiler"
+          },
+          "answer": "D) Compiler",
+          "answer_letter": "D"
+        },
+        {
+          "id": 27,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Inheritance",
+            "B": "Polymorphism",
+            "C": "Encapsulation",
+            "D": "Paging"
+          },
+          "answer": "D) Paging",
+          "answer_letter": "D"
+        },
+        {
+          "id": 28,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Push",
+            "B": "Pop",
+            "C": "Peek",
+            "D": "Enqueue"
+          },
+          "answer": "D) Enqueue",
+          "answer_letter": "D"
+        },
+        {
+          "id": 29,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "if",
+            "B": "else",
+            "C": "switch",
+            "D": "malloc()"
+          },
+          "answer": "D) malloc()",
+          "answer_letter": "D"
+        },
+        {
+          "id": 30,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Java",
+            "B": "C",
+            "C": "C++",
+            "D": "Windows"
+          },
+          "answer": "D) Windows",
+          "answer_letter": "D"
+        },
+        {
+          "id": 31,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "RAM",
+            "B": "Cache",
+            "C": "Register",
+            "D": "Queue"
+          },
+          "answer": "D) Queue",
+          "answer_letter": "D"
+        },
+        {
+          "id": 32,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Thread",
+            "B": "Process",
+            "C": "Context Switching",
+            "D": "Constructor"
+          },
+          "answer": "D) Constructor",
+          "answer_letter": "D"
+        },
+        {
+          "id": 33,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Hashing",
+            "B": "Collision",
+            "C": "Hash Table",
+            "D": "Inheritance"
+          },
+          "answer": "D) Inheritance",
+          "answer_letter": "D"
+        },
+        {
+          "id": 34,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "String",
+            "B": "Integer",
+            "C": "Double",
+            "D": "printf()"
+          },
+          "answer": "D) printf()",
+          "answer_letter": "D"
+        },
+        {
+          "id": 35,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "FCFS",
+            "B": "Round Robin",
+            "C": "Priority Scheduling",
+            "D": "Bubble Sort"
+          },
+          "answer": "D) Bubble Sort",
+          "answer_letter": "D"
+        },
+        {
+          "id": 36,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "malloc()",
+            "B": "calloc()",
+            "C": "free()",
+            "D": "extends"
+          },
+          "answer": "D) extends",
+          "answer_letter": "D"
+        },
+        {
+          "id": 37,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Abstract Class",
+            "B": "Interface",
+            "C": "Encapsulation",
+            "D": "Keyboard"
+          },
+          "answer": "D) Keyboard",
+          "answer_letter": "D"
+        },
+        {
+          "id": 38,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Array",
+            "B": "Linked List",
+            "C": "Stack",
+            "D": "JVM"
+          },
+          "answer": "D) JVM",
+          "answer_letter": "D"
+        },
+        {
+          "id": 39,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Compilation",
+            "B": "Execution",
+            "C": "Debugging",
+            "D": "Enqueue"
+          },
+          "answer": "D) Enqueue",
+          "answer_letter": "D"
+        },
+        {
+          "id": 40,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "File",
+            "B": "Folder",
+            "C": "Directory",
+            "D": "Constructor"
+          },
+          "answer": "D) Constructor",
+          "answer_letter": "D"
+        },
+        {
+          "id": 41,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "int",
+            "B": "char",
+            "C": "float",
+            "D": "import"
+          },
+          "answer": "D) import",
+          "answer_letter": "D"
+        },
+        {
+          "id": 42,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "try",
+            "B": "catch",
+            "C": "finally",
+            "D": "malloc()"
+          },
+          "answer": "D) malloc()",
+          "answer_letter": "D"
+        },
+        {
+          "id": 43,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Paging",
+            "B": "Segmentation",
+            "C": "Virtual Memory",
+            "D": "Method Overloading"
+          },
+          "answer": "D) Method Overloading",
+          "answer_letter": "D"
+        },
+        {
+          "id": 44,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Stack",
+            "B": "Queue",
+            "C": "Deque",
+            "D": "Scanner"
+          },
+          "answer": "D) Scanner",
+          "answer_letter": "D"
+        },
+        {
+          "id": 45,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "for",
+            "B": "while",
+            "C": "do-while",
+            "D": "if"
+          },
+          "answer": "D) if",
+          "answer_letter": "D"
+        },
+        {
+          "id": 46,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Data",
+            "B": "Information",
+            "C": "Database",
+            "D": "Inheritance"
+          },
+          "answer": "D) Inheritance",
+          "answer_letter": "D"
+        },
+        {
+          "id": 47,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Binary Search",
+            "B": "Linear Search",
+            "C": "Jump Search",
+            "D": "Selection Sort"
+          },
+          "answer": "D) Selection Sort",
+          "answer_letter": "D"
+        },
+        {
+          "id": 48,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "this",
+            "B": "super",
+            "C": "extends",
+            "D": "scanf()"
+          },
+          "answer": "D) scanf()",
+          "answer_letter": "D"
+        },
+        {
+          "id": 49,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Linux",
+            "B": "Windows",
+            "C": "macOS",
+            "D": "Java"
+          },
+          "answer": "D) Java",
+          "answer_letter": "D"
+        },
+        {
+          "id": 50,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Deadlock",
+            "B": "Starvation",
+            "C": "Race Condition",
+            "D": "Constructor"
+          },
+          "answer": "D) Constructor",
+          "answer_letter": "D"
+        },
+        {
+          "id": 51,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Method Overloading",
+            "B": "Method Overriding",
+            "C": "Runtime Polymorphism",
+            "D": "Paging"
+          },
+          "answer": "D) Paging",
+          "answer_letter": "D"
+        },
+        {
+          "id": 52,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "ArrayList",
+            "B": "LinkedList",
+            "C": "Vector",
+            "D": "printf()"
+          },
+          "answer": "D) printf()",
+          "answer_letter": "D"
+        },
+        {
+          "id": 53,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "int",
+            "B": "short",
+            "C": "long",
+            "D": "if"
+          },
+          "answer": "D) if",
+          "answer_letter": "D"
+        },
+        {
+          "id": 54,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Source Code",
+            "B": "Compiler",
+            "C": "Executable File",
+            "D": "Stack"
+          },
+          "answer": "D) Stack",
+          "answer_letter": "D"
+        },
+        {
+          "id": 55,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "CPU",
+            "B": "ALU",
+            "C": "Control Unit",
+            "D": "Linked List"
+          },
+          "answer": "D) Linked List",
+          "answer_letter": "D"
+        },
+        {
+          "id": 56,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Public",
+            "B": "Private",
+            "C": "Protected",
+            "D": "Interface"
+          },
+          "answer": "D) Interface",
+          "answer_letter": "D"
+        },
+        {
+          "id": 57,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Tree",
+            "B": "Graph",
+            "C": "Heap",
+            "D": "Operating System"
+          },
+          "answer": "D) Operating System",
+          "answer_letter": "D"
+        },
+        {
+          "id": 58,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "scanf()",
+            "B": "printf()",
+            "C": "puts()",
+            "D": "println()"
+          },
+          "answer": "D) println()",
+          "answer_letter": "D"
+        },
+        {
+          "id": 59,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "JDK",
+            "B": "JRE",
+            "C": "JVM",
+            "D": "SQL"
+          },
+          "answer": "D) SQL",
+          "answer_letter": "D"
+        },
+        {
+          "id": 60,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "FCFS",
+            "B": "SJF",
+            "C": "Round Robin",
+            "D": "Insertion Sort"
+          },
+          "answer": "D) Insertion Sort",
+          "answer_letter": "D"
+        },
+        {
+          "id": 61,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Class",
+            "B": "Object",
+            "C": "Method",
+            "D": "Paging"
+          },
+          "answer": "D) Paging",
+          "answer_letter": "D"
+        },
+        {
+          "id": 62,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Queue",
+            "B": "Enqueue",
+            "C": "Dequeue",
+            "D": "Inheritance"
+          },
+          "answer": "D) Inheritance",
+          "answer_letter": "D"
+        },
+        {
+          "id": 63,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "break",
+            "B": "continue",
+            "C": "return",
+            "D": "RAM"
+          },
+          "answer": "D) RAM",
+          "answer_letter": "D"
+        },
+        {
+          "id": 64,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "String",
+            "B": "StringBuilder",
+            "C": "StringBuffer",
+            "D": "malloc()"
+          },
+          "answer": "D) malloc()",
+          "answer_letter": "D"
+        },
+        {
+          "id": 65,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Process",
+            "B": "Thread",
+            "C": "Semaphore",
+            "D": "Constructor"
+          },
+          "answer": "D) Constructor",
+          "answer_letter": "D"
+        },
+        {
+          "id": 66,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Bubble Sort",
+            "B": "Merge Sort",
+            "C": "Quick Sort",
+            "D": "Binary Search"
+          },
+          "answer": "D) Binary Search",
+          "answer_letter": "D"
+        },
+        {
+          "id": 67,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Encapsulation",
+            "B": "Abstraction",
+            "C": "Inheritance",
+            "D": "Compilation"
+          },
+          "answer": "D) Compilation",
+          "answer_letter": "D"
+        },
+        {
+          "id": 68,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "int",
+            "B": "float",
+            "C": "double",
+            "D": "class"
+          },
+          "answer": "D) class",
+          "answer_letter": "D"
+        },
+        {
+          "id": 69,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Windows",
+            "B": "Linux",
+            "C": "Android",
+            "D": "Oracle Database"
+          },
+          "answer": "D) Oracle Database",
+          "answer_letter": "D"
+        },
+        {
+          "id": 70,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Stack",
+            "B": "Push",
+            "C": "Pop",
+            "D": "Dequeue"
+          },
+          "answer": "D) Dequeue",
+          "answer_letter": "D"
+        },
+        {
+          "id": 71,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Constructor",
+            "B": "Destructor",
+            "C": "Method",
+            "D": "RAM"
+          },
+          "answer": "D) RAM",
+          "answer_letter": "D"
+        },
+        {
+          "id": 72,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Java",
+            "B": "C",
+            "C": "C++",
+            "D": "HTML"
+          },
+          "answer": "D) HTML",
+          "answer_letter": "D"
+        },
+        {
+          "id": 73,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Primary Memory",
+            "B": "Secondary Memory",
+            "C": "Cache Memory",
+            "D": "Polymorphism"
+          },
+          "answer": "D) Polymorphism",
+          "answer_letter": "D"
+        },
+        {
+          "id": 74,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Insertion Sort",
+            "B": "Merge Sort",
+            "C": "Quick Sort",
+            "D": "Linear Search"
+          },
+          "answer": "D) Linear Search",
+          "answer_letter": "D"
+        },
+        {
+          "id": 75,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "import",
+            "B": "package",
+            "C": "class",
+            "D": "scanf()"
+          },
+          "answer": "D) scanf()",
+          "answer_letter": "D"
+        },
+        {
+          "id": 76,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Deadlock",
+            "B": "Mutual Exclusion",
+            "C": "Synchronization",
+            "D": "Method Overloading"
+          },
+          "answer": "D) Method Overloading",
+          "answer_letter": "D"
+        },
+        {
+          "id": 77,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "malloc()",
+            "B": "calloc()",
+            "C": "realloc()",
+            "D": "System.out.println()"
+          },
+          "answer": "D) System.out.println()",
+          "answer_letter": "D"
+        },
+        {
+          "id": 78,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Binary Tree",
+            "B": "BST",
+            "C": "AVL Tree",
+            "D": "Scanner"
+          },
+          "answer": "D) Scanner",
+          "answer_letter": "D"
+        },
+        {
+          "id": 79,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "if",
+            "B": "else",
+            "C": "switch",
+            "D": "while"
+          },
+          "answer": "D) while",
+          "answer_letter": "D"
+        },
+        {
+          "id": 80,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Encapsulation",
+            "B": "Inheritance",
+            "C": "Polymorphism",
+            "D": "CPU Scheduling"
+          },
+          "answer": "D) CPU Scheduling",
+          "answer_letter": "D"
+        },
+        {
+          "id": 81,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "RAM",
+            "B": "ROM",
+            "C": "Cache",
+            "D": "JVM"
+          },
+          "answer": "D) JVM",
+          "answer_letter": "D"
+        },
+        {
+          "id": 82,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "HashMap",
+            "B": "HashSet",
+            "C": "ArrayList",
+            "D": "scanf()"
+          },
+          "answer": "D) scanf()",
+          "answer_letter": "D"
+        },
+        {
+          "id": 83,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Process Scheduling",
+            "B": "Memory Management",
+            "C": "File Management",
+            "D": "Method Overriding"
+          },
+          "answer": "D) Method Overriding",
+          "answer_letter": "D"
+        },
+        {
+          "id": 84,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Stack",
+            "B": "Queue",
+            "C": "Linked List",
+            "D": "Scanner"
+          },
+          "answer": "D) Scanner",
+          "answer_letter": "D"
+        },
+        {
+          "id": 85,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "int",
+            "B": "float",
+            "C": "char",
+            "D": "for"
+          },
+          "answer": "D) for",
+          "answer_letter": "D"
+        },
+        {
+          "id": 86,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "JDK",
+            "B": "JRE",
+            "C": "JVM",
+            "D": "HTML"
+          },
+          "answer": "D) HTML",
+          "answer_letter": "D"
+        },
+        {
+          "id": 87,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "FCFS",
+            "B": "SJF",
+            "C": "Priority Scheduling",
+            "D": "Binary Search"
+          },
+          "answer": "D) Binary Search",
+          "answer_letter": "D"
+        },
+        {
+          "id": 88,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Class",
+            "B": "Object",
+            "C": "Constructor",
+            "D": "Cache Memory"
+          },
+          "answer": "D) Cache Memory",
+          "answer_letter": "D"
+        },
+        {
+          "id": 89,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "printf()",
+            "B": "scanf()",
+            "C": "getchar()",
+            "D": "HashMap"
+          },
+          "answer": "D) HashMap",
+          "answer_letter": "D"
+        },
+        {
+          "id": 90,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Push",
+            "B": "Pop",
+            "C": "Peek",
+            "D": "Enqueue"
+          },
+          "answer": "D) Enqueue",
+          "answer_letter": "D"
+        },
+        {
+          "id": 91,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Paging",
+            "B": "Segmentation",
+            "C": "Virtual Memory",
+            "D": "Method Overriding"
+          },
+          "answer": "D) Method Overriding",
+          "answer_letter": "D"
+        },
+        {
+          "id": 92,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "ArrayList",
+            "B": "LinkedList",
+            "C": "HashSet",
+            "D": "malloc()"
+          },
+          "answer": "D) malloc()",
+          "answer_letter": "D"
+        },
+        {
+          "id": 93,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "C",
+            "B": "C++",
+            "C": "Java",
+            "D": "Linux"
+          },
+          "answer": "D) Linux",
+          "answer_letter": "D"
+        },
+        {
+          "id": 94,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Deadlock",
+            "B": "Starvation",
+            "C": "Semaphore",
+            "D": "Insertion Sort"
+          },
+          "answer": "D) Insertion Sort",
+          "answer_letter": "D"
+        },
+        {
+          "id": 95,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Encapsulation",
+            "B": "Abstraction",
+            "C": "Inheritance",
+            "D": "Queue"
+          },
+          "answer": "D) Queue",
+          "answer_letter": "D"
+        },
+        {
+          "id": 96,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "for",
+            "B": "while",
+            "C": "do-while",
+            "D": "switch"
+          },
+          "answer": "D) switch",
+          "answer_letter": "D"
+        },
+        {
+          "id": 97,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Binary Search",
+            "B": "Linear Search",
+            "C": "Jump Search",
+            "D": "Merge Sort"
+          },
+          "answer": "D) Merge Sort",
+          "answer_letter": "D"
+        },
+        {
+          "id": 98,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "int",
+            "B": "float",
+            "C": "double",
+            "D": "public"
+          },
+          "answer": "D) public",
+          "answer_letter": "D"
+        },
+        {
+          "id": 99,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "Thread",
+            "B": "Process",
+            "C": "Scheduling",
+            "D": "Inheritance"
+          },
+          "answer": "D) Inheritance",
+          "answer_letter": "D"
+        },
+        {
+          "id": 100,
+          "question": "Find the odd one out.",
+          "options": {
+            "A": "JVM",
+            "B": "Bytecode",
+            "C": "JDK",
+            "D": "malloc()"
+          },
+          "answer": "D) malloc()",
+          "answer_letter": "D"
+        }
+      ]
+    }
+    ]
+}

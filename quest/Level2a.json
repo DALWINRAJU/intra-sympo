@@ -1,0 +1,371 @@
+{
+  "title": "Level 2",
+  "parts": [
+    {
+      "part": 1,
+      "title": "NUMBER SYSTEM – 30 QUESTIONS WITH ANSWERS",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Convert binary (1010)₂ to decimal.",
+          "options": {
+            "A": "(10)₁₀",
+            "B": "(12)₁₀",
+            "C": "(8)₁₀",
+            "D": "(14)₁₀"
+          },
+          "answer": "(10)₁₀",
+          "answer_letter": "A"
+        },
+        {
+          "id": 2,
+          "question": "Convert binary (1101)₂ to decimal.",
+          "options": {
+            "A": "(11)₁₀",
+            "B": "(13)₁₀",
+            "C": "(15)₁₀",
+            "D": "(12)₁₀"
+          },
+          "answer": "(13)₁₀",
+          "answer_letter": "B"
+        },
+        {
+          "id": 3,
+          "question": "Convert decimal (25)₁₀ to binary.",
+          "options": {
+            "A": "(11000)₂",
+            "B": "(10101)₂",
+            "C": "(11001)₂",
+            "D": "(11101)₂"
+          },
+          "answer": "(11001)₂",
+          "answer_letter": "C"
+        },
+        {
+          "id": 4,
+          "question": "Convert decimal (45)₁₀ to binary.",
+          "options": {
+            "A": "(101101)₂",
+            "B": "(101111)₂",
+            "C": "(100101)₂",
+            "D": "(110101)₂"
+          },
+          "answer": "(101101)₂",
+          "answer_letter": "A"
+        },
+        {
+          "id": 5,
+          "question": "Convert binary (101101)₂ to octal.",
+          "options": {
+            "A": "(45)₈",
+            "B": "(55)₈",
+            "C": "(65)₈",
+            "D": "(35)₈"
+          },
+          "answer": "(55)₈",
+          "answer_letter": "B"
+        },
+        {
+          "id": 6,
+          "question": "Convert binary (11010110)₂ to octal.",
+          "options": {
+            "A": "(326)₈",
+            "B": "(256)₈",
+            "C": "(316)₈",
+            "D": "(346)₈"
+          },
+          "answer": "(326)₈",
+          "answer_letter": "A"
+        },
+        {
+          "id": 7,
+          "question": "Convert octal (57)₈ to binary.",
+          "options": {
+            "A": "(101011)₂",
+            "B": "(110111)₂",
+            "C": "(101111)₂",
+            "D": "(111101)₂"
+          },
+          "answer": "(101111)₂",
+          "answer_letter": "C"
+        },
+        {
+          "id": 8,
+          "question": "Convert octal (125)₈ to decimal.",
+          "options": {
+            "A": "(65)₁₀",
+            "B": "(75)₁₀",
+            "C": "(85)₁₀",
+            "D": "(95)₁₀"
+          },
+          "answer": "(85)₁₀",
+          "answer_letter": "C"
+        },
+        {
+          "id": 9,
+          "question": "Convert decimal (100)₁₀ to octal.",
+          "options": {
+            "A": "(144)₈",
+            "B": "(124)₈",
+            "C": "(164)₈",
+            "D": "(134)₈"
+          },
+          "answer": "(144)₈",
+          "answer_letter": "A"
+        },
+        {
+          "id": 10,
+          "question": "Convert binary (11111111)₂ to hexadecimal.",
+          "options": {
+            "A": "(FE)₁₆",
+            "B": "(FF)₁₆",
+            "C": "(EF)₁₆",
+            "D": "(EE)₁₆"
+          },
+          "answer": "(FF)₁₆",
+          "answer_letter": "B"
+        },
+        {
+          "id": 11,
+          "question": "Convert hexadecimal (2A)₁₆ to decimal.",
+          "options": {
+            "A": "(32)₁₀",
+            "B": "(40)₁₀",
+            "C": "(42)₁₀",
+            "D": "(52)₁₀"
+          },
+          "answer": "(42)₁₀",
+          "answer_letter": "C"
+        },
+        {
+          "id": 12,
+          "question": "Convert decimal (255)₁₀ to hexadecimal.",
+          "options": {
+            "A": "(FF)₁₆",
+            "B": "(FE)₁₆",
+            "C": "(F0)₁₆",
+            "D": "(EE)₁₆"
+          },
+          "answer": "(FF)₁₆",
+          "answer_letter": "A"
+        },
+        {
+          "id": 13,
+          "question": "Convert hexadecimal (3F)₁₆ to binary.",
+          "options": {
+            "A": "(00111100)₂",
+            "B": "(00111111)₂",
+            "C": "(00110111)₂",
+            "D": "(00101111)₂"
+          },
+          "answer": "(00111111)₂",
+          "answer_letter": "B"
+        },
+        {
+          "id": 14,
+          "question": "Convert binary (10101111)₂ to decimal.",
+          "options": {
+            "A": "(165)₁₀",
+            "B": "(175)₁₀",
+            "C": "(185)₁₀",
+            "D": "(155)₁₀"
+          },
+          "answer": "(175)₁₀",
+          "answer_letter": "B"
+        },
+        {
+          "id": 15,
+          "question": "Convert decimal (64)₁₀ to hexadecimal.",
+          "options": {
+            "A": "(30)₁₆",
+            "B": "(40)₁₆",
+            "C": "(50)₁₆",
+            "D": "(60)₁₆"
+          },
+          "answer": "(40)₁₆",
+          "answer_letter": "B"
+        },
+        {
+          "id": 16,
+          "question": "Find the 1's complement of 10110010.",
+          "options": {
+            "A": "01001101",
+            "B": "01001110",
+            "C": "01011101",
+            "D": "00110011"
+          },
+          "answer": "01001101",
+          "answer_letter": "A"
+        },
+        {
+          "id": 17,
+          "question": "Find the 1's complement of 11001100.",
+          "options": {
+            "A": "00110000",
+            "B": "00110011",
+            "C": "00111100",
+            "D": "11000011"
+          },
+          "answer": "00110011",
+          "answer_letter": "B"
+        },
+        {
+          "id": 18,
+          "question": "Find the 2's complement of 1010 using 4 bits.",
+          "options": {
+            "A": "0101",
+            "B": "0110",
+            "C": "0111",
+            "D": "1100"
+          },
+          "answer": "0110",
+          "answer_letter": "B"
+        },
+        {
+          "id": 19,
+          "question": "Find the 2's complement of 01011010 using 8 bits.",
+          "options": {
+            "A": "10100110",
+            "B": "10100101",
+            "C": "10100111",
+            "D": "11010010"
+          },
+          "answer": "10100110",
+          "answer_letter": "A"
+        },
+        {
+          "id": 20,
+          "question": "Find the 2's complement of 00010101 using 8 bits.",
+          "options": {
+            "A": "11101010",
+            "B": "11101011",
+            "C": "11101100",
+            "D": "11010101"
+          },
+          "answer": "11101011",
+          "answer_letter": "B"
+        },
+        {
+          "id": 21,
+          "question": "Find the decimal value of binary (100000)₂.",
+          "options": {
+            "A": "16",
+            "B": "32",
+            "C": "64",
+            "D": "24"
+          },
+          "answer": "32",
+          "answer_letter": "B"
+        },
+        {
+          "id": 22,
+          "question": "Convert decimal (19)₁₀ to binary.",
+          "options": {
+            "A": "(10011)₂",
+            "B": "(10101)₂",
+            "C": "(11001)₂",
+            "D": "(10111)₂"
+          },
+          "answer": "(10011)₂",
+          "answer_letter": "A"
+        },
+        {
+          "id": 23,
+          "question": "Convert octal (73)₈ to binary.",
+          "options": {
+            "A": "(111010)₂",
+            "B": "(111011)₂",
+            "C": "(110011)₂",
+            "D": "(111100)₂"
+          },
+          "answer": "(111011)₂",
+          "answer_letter": "B"
+        },
+        {
+          "id": 24,
+          "question": "Convert hexadecimal (A5)₁₆ to decimal.",
+          "options": {
+            "A": "155",
+            "B": "160",
+            "C": "165",
+            "D": "170"
+          },
+          "answer": "165",
+          "answer_letter": "C"
+        },
+        {
+          "id": 25,
+          "question": "Convert decimal (128)₁₀ to hexadecimal.",
+          "options": {
+            "A": "(80)₁₆",
+            "B": "(70)₁₆",
+            "C": "(90)₁₆",
+            "D": "(A0)₁₆"
+          },
+          "answer": "(80)₁₆",
+          "answer_letter": "A"
+        },
+        {
+          "id": 26,
+          "question": "Add binary numbers 1010 + 0101.",
+          "options": {
+            "A": "1110",
+            "B": "1111",
+            "C": "10000",
+            "D": "1101"
+          },
+          "answer": "1111",
+          "answer_letter": "B"
+        },
+        {
+          "id": 27,
+          "question": "Add binary numbers 1101 + 0011.",
+          "options": {
+            "A": "10000",
+            "B": "11100",
+            "C": "11110",
+            "D": "10001"
+          },
+          "answer": "10000",
+          "answer_letter": "A"
+        },
+        {
+          "id": 28,
+          "question": "Subtract binary numbers 1010 - 0011.",
+          "options": {
+            "A": "0110",
+            "B": "0111",
+            "C": "1001",
+            "D": "0101"
+          },
+          "answer": "0111",
+          "answer_letter": "B"
+        },
+        {
+          "id": 29,
+          "question": "Find the 1's complement of 11110000.",
+          "options": {
+            "A": "00001111",
+            "B": "00001110",
+            "C": "00010000",
+            "D": "11111111"
+          },
+          "answer": "00001111",
+          "answer_letter": "A"
+        },
+        {
+          "id": 30,
+          "question": "Find the 2's complement of 11110000 using 8 bits.",
+          "options": {
+            "A": "00001111",
+            "B": "00010000",
+            "C": "00010001",
+            "D": "00001110"
+          },
+          "answer": "00010000",
+          "answer_letter": "B"
+        }
+      ]
+    }
+  ]
+}

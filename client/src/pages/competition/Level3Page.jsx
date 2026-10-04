@@ -5,7 +5,7 @@ import { useCompetition } from '../../hooks/useCompetition';
 
 const Level3Page = () => {
   const navigate = useNavigate();
-  const { fetchSession } = useCompetition();
+  const { fetchSession, refreshScore } = useCompetition();
 
   const [questionData, setQuestionData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -25,14 +25,14 @@ const Level3Page = () => {
       setFeedback(null);
     } catch (err) {
       if (err.response?.data?.message === 'Level 3 already completed') {
-        await fetchSession(); // Context auto-routes to /result
+        navigate('/result');
       } else {
         setError(err.response?.data?.message || 'Failed to load question');
       }
     } finally {
       setLoading(false);
     }
-  }, [fetchSession]);
+  }, [navigate]);
 
   useEffect(() => {
     loadQuestion();
@@ -51,7 +51,7 @@ const Level3Page = () => {
         isCompetitionComplete: data.isCompetitionComplete,
         pointsAwarded: data.pointsAwarded
       });
-      
+      refreshScore();
     } catch (err) {
       setError(err.response?.data?.message || 'Failed to submit answer');
     } finally {
@@ -61,7 +61,7 @@ const Level3Page = () => {
 
   const handleNext = async () => {
     if (feedback?.isCompetitionComplete) {
-      await fetchSession(); // Context will auto-route to /result
+      navigate('/result');
     } else {
       loadQuestion();
     }

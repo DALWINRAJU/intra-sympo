@@ -8,7 +8,7 @@ const router = express.Router();
 
 const authLimiter = rateLimit({
   windowMs: 15 * 60 * 1000,
-  max: 20,
+  max: 3000, // Accommodates 100+ students registering and logging in from the same Wi-Fi
   message: { success: false, message: 'Too many authentication attempts, please try again later' }
 });
 

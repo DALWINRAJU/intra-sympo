@@ -9,7 +9,7 @@ const AppError = require('./utils/AppError');
 const dns = require('dns');
 const app = express();
 
-dns.setServers(["0.0.0.0", "8.8.8.8"]);
+
 // Security middleware
 app.use(helmet());
 
@@ -23,10 +23,10 @@ app.use(
   })
 );
 
-// Rate limiting
+// Rate limiting (Tuned for 100+ students on shared college/symposium Wi-Fi IP)
 const globalLimiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 500, // 500 requests per 15 min per IP
+  max: 20000, // High capacity for shared college NAT/Wi-Fi gateways
   message: { success: false, message: 'Too many requests, please try again later' },
   standardHeaders: true,
   legacyHeaders: false,

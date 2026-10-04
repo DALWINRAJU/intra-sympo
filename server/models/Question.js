@@ -10,6 +10,7 @@ const questionSchema = new mongoose.Schema({
   type: { type: String, enum: Object.values(QUESTION_TYPES), required: true },
   level: { type: Number, required: true, min: 1, max: 3 },
   category: { type: String, required: true },
+  subcategory: { type: String },           // Used for Level 2: 'A', 'B', or 'C'
   questionText: { type: String, required: true },
   codeSnippet: { type: String },
   language: { type: String },

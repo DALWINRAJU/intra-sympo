@@ -3,7 +3,7 @@ const AppError = require('../utils/AppError');
 const { SESSION_STATUS } = require('../utils/constants');
 
 exports.getMyResult = async (participantId) => {
-  const session = await QuizSession.findOne({ participant: participantId });
+  const session = await QuizSession.findOne({ participant: participantId }).populate('participant', 'fullName participantId collegeName department');
   
   if (!session) {
     throw new AppError('No active session found', 404);
@@ -23,11 +23,15 @@ exports.getMyResult = async (participantId) => {
   });
 
   return {
+    fullName: session.participant?.fullName || 'Participant',
+    participantId: session.participant?.participantId || '',
+    collegeName: session.participant?.collegeName || '',
+    department: session.participant?.department || '',
     totalScore: session.totalScore,
     level1Score: session.level1Score,
     level2Score: session.level2Score,
     level3Score: session.level3Score,
-    timeTakenMs: session.timeTakenMs,
+    timeTakenMs: session.timeTakenMs || 0,
     status: session.status,
     rank: higherRankCount + 1
   };

@@ -12,6 +12,11 @@ exports.getParticipantDetail = catchAsync(async (req, res) => {
   sendSuccess(res, 200, result, 'Participant detail retrieved successfully');
 });
 
+exports.deleteParticipant = catchAsync(async (req, res) => {
+  const result = await adminService.deleteParticipant(req.params.id);
+  sendSuccess(res, 200, result, 'Participant and records deleted successfully');
+});
+
 exports.getStats = catchAsync(async (req, res) => {
   const result = await adminService.getStats();
   sendSuccess(res, 200, result, 'Stats retrieved successfully');

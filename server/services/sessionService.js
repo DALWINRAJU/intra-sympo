@@ -27,23 +27,57 @@ exports.startSession = async (participantId) => {
   }
 
   // 3. Randomly select questions based on config
-  const [level1Questions, level2Questions, level3Questions] = await Promise.all([
+  // Level 2: 1 question from Subcategory A (Level2a), 1 from B (Level2b), 1 from C (Level2c)
+  const [l2A, l2B, l2C, level1Questions, l3IfElse, l3For, l3While] = await Promise.all([
+    Question.aggregate([
+      { $match: { level: 2, type: QUESTION_TYPES.EXIT_ROOM, subcategory: 'A', isActive: true } },
+      { $sample: { size: 1 } }, { $project: { _id: 1 } }
+    ]),
+    Question.aggregate([
+      { $match: { level: 2, type: QUESTION_TYPES.EXIT_ROOM, subcategory: 'B', isActive: true } },
+      { $sample: { size: 1 } }, { $project: { _id: 1 } }
+    ]),
+    Question.aggregate([
+      { $match: { level: 2, type: QUESTION_TYPES.EXIT_ROOM, subcategory: 'C', isActive: true } },
+      { $sample: { size: 1 } }, { $project: { _id: 1 } }
+    ]),
     Question.aggregate([
       { $match: { level: 1, type: QUESTION_TYPES.MCQ, isActive: true } },
-      { $sample: { size: config.level1QuestionCount } },
-      { $project: { _id: 1 } }
+      { $sample: { size: config.level1QuestionCount || 10 } }, { $project: { _id: 1 } }
     ]),
     Question.aggregate([
-      { $match: { level: 2, type: QUESTION_TYPES.EXIT_ROOM, isActive: true } },
-      { $sample: { size: config.level2StepCount } },
-      { $project: { _id: 1 } }
+      { $match: { level: 3, type: QUESTION_TYPES.GUESS_OUTPUT, category: { $regex: /^if-else/i }, isActive: true } },
+      { $sample: { size: 1 } }, { $project: { _id: 1 } }
     ]),
     Question.aggregate([
-      { $match: { level: 3, type: QUESTION_TYPES.GUESS_OUTPUT, isActive: true } },
-      { $sample: { size: config.level3QuestionCount } },
-      { $project: { _id: 1 } }
+      { $match: { level: 3, type: QUESTION_TYPES.GUESS_OUTPUT, category: { $regex: /^for loop/i }, isActive: true } },
+      { $sample: { size: 1 } }, { $project: { _id: 1 } }
+    ]),
+    Question.aggregate([
+      { $match: { level: 3, type: QUESTION_TYPES.GUESS_OUTPUT, category: { $regex: /^while loop/i }, isActive: true } },
+      { $sample: { size: 1 } }, { $project: { _id: 1 } }
     ])
   ]);
+
+  const level2Questions = [
+    ...(l2A.length > 0 ? [l2A[0]._id] : []),
+    ...(l2B.length > 0 ? [l2B[0]._id] : []),
+    ...(l2C.length > 0 ? [l2C[0]._id] : [])
+  ];
+
+  const level3Questions = [];
+  if (l3IfElse.length > 0) level3Questions.push(l3IfElse[0]._id);
+  if (l3For.length > 0) level3Questions.push(l3For[0]._id);
+  if (l3While.length > 0) level3Questions.push(l3While[0]._id);
+
+  const targetL3Count = config.level3QuestionCount || 3;
+  if (level3Questions.length < targetL3Count) {
+    const additionalL3 = await Question.aggregate([
+      { $match: { level: 3, type: QUESTION_TYPES.GUESS_OUTPUT, isActive: true, _id: { $nin: level3Questions } } },
+      { $sample: { size: targetL3Count - level3Questions.length } }, { $project: { _id: 1 } }
+    ]);
+    level3Questions.push(...additionalL3.map(q => q._id));
+  }
 
   // 4. Create new session with config snapshot
   const session = await QuizSession.create({

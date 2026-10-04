@@ -42,9 +42,9 @@ A college symposium requires a real-time, multi-level technical quiz competition
 | Constraint | Detail |
 |---|---|
 | **Scale** | 140+ simultaneous participants |
-| **Deployment** | Vercel (frontend) + Render free/starter (backend) + MongoDB Atlas |
+| **Deployment** | render (frontend) + Render free/starter (backend) + MongoDB Atlas |
 | **Timeline** | College symposium — must be reliable on event day |
-| **Budget** | Likely free-tier or minimal-cost infrastructure |
+| **Budget** | Likely free-tier 
 | **Integrity** | Anti-cheating: server must be the single source of truth |
 
 ### What This Document Covers
@@ -61,7 +61,7 @@ This document defines the complete architecture **without writing implementation
 |---|---|
 | FR-1 | Participant registers with Full Name, College Name, Department, Participant ID |
 | FR-2 | Participant starts the competition, creating a server-side session |
-| FR-3 | Level 1: Answer 20 MCQs (configurable) from a bank of 100 |
+| FR-3 | Level 1: Answer 20 MCQs (configurable) from a bank of 100 -random questions need to be |
 | FR-4 | Level 1: Immediate correct/incorrect feedback after each answer |
 | FR-5 | Level 1: Display score after completing all questions |
 | FR-6 | Level 2: Complete 3 steps (configurable) with 3 lives (configurable) |

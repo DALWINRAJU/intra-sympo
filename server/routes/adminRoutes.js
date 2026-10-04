@@ -15,6 +15,8 @@ router.use(requireRole(ADMIN_ROLES.ADMIN, ADMIN_ROLES.SUPER_ADMIN));
 
 router.get('/participants', adminController.getParticipants);
 router.get('/participants/:id', adminController.getParticipantDetail);
+router.delete('/participants/:id', adminController.deleteParticipant);
+router.get('/stats', adminController.getStats);
 router.get('/sessions/stats', adminController.getStats);
 
 router.get('/questions', adminController.getQuestions);
@@ -29,19 +31,6 @@ router.use(requireRole(ADMIN_ROLES.SUPER_ADMIN));
 
 router.put('/config', adminController.updateConfig);
 
-router.post('/competition/start', 
-  (req, res, next) => { req.body.status = COMPETITION_STATUS.ACTIVE; next(); },
-  adminController.changeCompetitionStatus
-);
-
-router.post('/competition/pause', 
-  (req, res, next) => { req.body.status = COMPETITION_STATUS.PAUSED; next(); },
-  adminController.changeCompetitionStatus
-);
-
-router.post('/competition/end', 
-  (req, res, next) => { req.body.status = COMPETITION_STATUS.ENDED; next(); },
-  adminController.changeCompetitionStatus
-);
+router.post('/competition/status', adminController.changeCompetitionStatus);
 
 module.exports = router;

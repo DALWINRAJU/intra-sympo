@@ -2,10 +2,11 @@ import { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getQuestion, submitAnswer, advanceLevel } from '../../services/quizService';
 import { useCompetition } from '../../hooks/useCompetition';
+import CompetitionTimer from '../../components/common/CompetitionTimer';
 
 const Level2Page = () => {
   const navigate = useNavigate();
-  const { fetchSession } = useCompetition();
+  const { session, refreshScore } = useCompetition();
 
   const [questionData, setQuestionData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -52,6 +53,7 @@ const Level2Page = () => {
         pointsAwarded: data.pointsAwarded,
         livesRemaining: data.lives
       });
+      refreshScore();
       
     } catch (err) {
       setError(err.response?.data?.message || 'Failed to submit answer');
@@ -62,11 +64,11 @@ const Level2Page = () => {
 
   const handleNext = async () => {
     if (feedback?.isEliminated) {
-      await fetchSession(); // Context will auto-route to /result
+      navigate('/result');
     } else if (feedback?.isLevelComplete) {
       try {
         await advanceLevel(3);
-        await fetchSession(); // Context will auto-route to /level/3
+        navigate('/level/3');
       } catch (err) {
         setError('Failed to advance to Level 3');
       }
@@ -77,10 +79,12 @@ const Level2Page = () => {
 
   if (loading) return <div className="text-center text-white py-12 text-lg">Loading Exit Room...</div>;
   if (error) return <div className="text-red-400 text-center py-12 text-lg">{error}</div>;
-  if (!questionData) return null;
+  if (!questionData || !questionData.question) return null;
 
   const { question, currentIndex, totalQuestions } = questionData;
-  const currentLives = feedback ? feedback.livesRemaining : questionData.lives;
+  const timerStart = session?.startTime || questionData.startTime;
+  // Safe fallback: if lives not yet in response, use 3 as default
+  const currentLives = feedback?.livesRemaining ?? questionData.lives ?? 3;
 
   return (
     <div className="max-w-3xl mx-auto w-full">
@@ -91,14 +95,18 @@ const Level2Page = () => {
             Step {currentIndex + 1} of {totalQuestions}
           </span>
         </div>
-        <div className="bg-gray-900 border border-gray-700 px-4 py-2 rounded-lg flex items-center gap-2 shadow-lg">
-          <span className="text-gray-300 text-sm uppercase tracking-wider font-bold mr-2">Lives:</span>
-          <div className="flex gap-1 text-xl">
-            {[1, 2, 3].map(heart => (
-              <span key={heart} className={heart <= currentLives ? 'text-red-500' : 'text-gray-700 opacity-30 grayscale'}>
-                ❤️
-              </span>
-            ))}
+        
+        <div className="flex flex-wrap items-center gap-3">
+          {timerStart && <CompetitionTimer startTime={timerStart} />}
+          <div className="bg-gray-900 border border-gray-700 px-4 py-2 rounded-lg flex items-center gap-2 shadow-lg">
+            <span className="text-gray-300 text-sm uppercase tracking-wider font-bold mr-2">Lives:</span>
+            <div className="flex gap-1 text-xl">
+              {[1, 2, 3].map(heart => (
+                <span key={heart} className={heart <= currentLives ? 'text-red-500' : 'text-gray-700 opacity-30 grayscale'}>
+                  ❤️
+                </span>
+              ))}
+            </div>
           </div>
         </div>
       </div>
@@ -138,8 +146,10 @@ const Level2Page = () => {
                 onClick={() => setSelectedOption(opt.label)}
                 className={btnClass}
               >
-                <span className="font-bold mr-3 text-gray-400">{opt.label}.</span>
-                {opt.text}
+                <div className="flex items-center text-left">
+                  <span className="font-bold w-8 text-gray-400 shrink-0">{opt.label}.</span>
+                  <span>{opt.text}</span>
+                </div>
               </button>
             );
           })}
