@@ -9,6 +9,7 @@ const CompetitionLayout = () => {
   const { session } = useCompetition();
 
   const isLevel2 = session?.status?.includes('LEVEL_2');
+  const isGameOver = session?.status === 'COMPLETED' || session?.status === 'ELIMINATED';
 
   return (
     <AntiCheatWrapper>
@@ -16,9 +17,9 @@ const CompetitionLayout = () => {
         <header className="border-b border-gray-800 bg-gray-900 px-6 py-3 flex justify-between items-center">
           <div className="font-bold text-indigo-400 text-lg">Technical Quiz</div>
           <div className="flex items-center gap-4">
-            {/* Live timer */}
+            {/* Live timer — stops when game is over */}
             {session?.startTime && (
-              <CompetitionTimer startTime={session.startTime} />
+              <CompetitionTimer startTime={session.startTime} stopped={isGameOver} />
             )}
             {/* Live score */}
             {session && (

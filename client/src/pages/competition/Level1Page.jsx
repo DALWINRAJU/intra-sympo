@@ -3,6 +3,13 @@ import { useNavigate } from 'react-router-dom';
 import { getQuestion, submitAnswer, advanceLevel } from '../../services/quizService';
 import { useCompetition } from '../../hooks/useCompetition';
 
+// Q1–5 = easy, Q6–8 = medium, Q9–10 = hard (index 0-based)
+const getDifficultyZone = (index) => {
+  if (index < 5) return { label: 'Easy', color: 'text-green-400', bg: 'bg-green-900/30 border-green-700/50', icon: '🟢' };
+  if (index < 8) return { label: 'Moderate', color: 'text-yellow-400', bg: 'bg-yellow-900/30 border-yellow-700/50', icon: '🟡' };
+  return { label: 'Hard', color: 'text-red-400', bg: 'bg-red-900/30 border-red-700/50', icon: '🔴' };
+};
+
 const Level1Page = () => {
   const navigate = useNavigate();
   const { refreshScore } = useCompetition();
@@ -77,14 +84,24 @@ const Level1Page = () => {
   if (!questionData) return null;
 
   const { question, currentIndex, totalQuestions } = questionData;
+  const zone = getDifficultyZone(currentIndex);
 
   return (
     <div className="max-w-3xl mx-auto w-full">
-      <div className="mb-6 flex justify-between items-end">
+      <div className="mb-6 flex justify-between items-center">
         <h2 className="text-2xl font-bold text-white">Level 1: Core MCQ</h2>
         <span className="text-gray-400 font-medium bg-gray-800 px-3 py-1 rounded-full text-sm">
           Question {currentIndex + 1} of {totalQuestions}
         </span>
+      </div>
+
+      {/* Difficulty zone banner */}
+      <div className={`flex items-center gap-2 px-4 py-2 rounded-lg border mb-4 w-fit text-sm font-semibold ${zone.bg} ${zone.color}`}>
+        <span>{zone.icon}</span>
+        <span>{zone.label} Zone</span>
+        {currentIndex === 0 && <span className="text-xs opacity-70 ml-1">— Questions 1–5</span>}
+        {currentIndex === 5 && <span className="text-xs opacity-70 ml-1">— Questions 6–8</span>}
+        {currentIndex === 8 && <span className="text-xs opacity-70 ml-1">— Questions 9–10</span>}
       </div>
 
       <div className="card mb-6">
@@ -143,7 +160,7 @@ const Level1Page = () => {
       ) : (
         <div className="space-y-4">
           <div className={`p-4 rounded-lg border text-center font-bold text-lg ${feedback.isCorrect ? 'bg-green-900/30 border-green-600 text-green-400' : 'bg-red-900/30 border-red-600 text-red-400'}`}>
-            {feedback.isCorrect ? `Correct! +${feedback.pointsAwarded} Points` : 'Incorrect! 0 Points'}
+            {feedback.isCorrect ? `✅ Correct! +${feedback.pointsAwarded} Points` : '❌ Incorrect! 0 Points'}
           </div>
           <button onClick={handleNext} className="btn-primary w-full text-lg py-4">
             {feedback.isLevelComplete ? 'Continue to Level 2 ➔' : 'Next Question ➔'}

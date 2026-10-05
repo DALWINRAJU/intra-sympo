@@ -67,8 +67,8 @@ exports.startSession = async (participantId) => {
     ])
   ]);
 
-  // Shuffle Level 1 questions so they aren't always grouped by difficulty
-  const level1Questions = [...l1Easy, ...l1Medium, ...l1Hard].sort(() => 0.5 - Math.random());
+  // Keep Level 1 questions ordered: 5 easy → 3 medium → 2 hard
+  const level1Questions = [...l1Easy, ...l1Medium, ...l1Hard];
 
   const level2Questions = [
     ...(l2A.length > 0 ? [l2A[0]._id] : []),
