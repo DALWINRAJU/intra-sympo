@@ -14,19 +14,23 @@ const run = async () => {
     const questDir = path.join(__dirname, '../../quest');
     
     // Read Level 1
-    const l1Data = JSON.parse(fs.readFileSync(path.join(questDir, 'Level1.json'), 'utf8'));
-    const level1Questions = l1Data.questions.map(q => {
+    const l1FileName = fs.existsSync(path.join(questDir, 'updated_level1.json')) ? 'updated_level1.json' : 'Level1.json';
+    const l1Raw = JSON.parse(fs.readFileSync(path.join(questDir, l1FileName), 'utf8'));
+    const l1Items = Array.isArray(l1Raw) ? l1Raw : (l1Raw.questions || []);
+    const level1Questions = l1Items.map(q => {
       const options = [];
-      for (const [key, value] of Object.entries(q.options)) {
-        options.push({ label: key, text: value });
+      if (q.options) {
+        for (const [key, value] of Object.entries(q.options)) {
+          options.push({ label: key, text: String(value) });
+        }
       }
       return {
         type: 'mcq',
         level: 1,
-        category: q.section || 'General',
+        category: q.category || q.section || 'General',
         questionText: q.question,
         options: options,
-        correctAnswer: q.answer,
+        correctAnswer: q.answer || q.answer_letter,
         points: 5,
         difficulty: 'medium',
         isActive: true

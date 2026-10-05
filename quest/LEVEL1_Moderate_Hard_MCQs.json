@@ -1,0 +1,975 @@
+{
+  "title": "Technical Quiz Competition",
+  "sections": [
+    {
+      "section": "Moderate",
+      "questions": [
+        {
+          "id": 1,
+          "category": "Operating Systems",
+          "question": "Which of the following is NOT one of the four necessary conditions for deadlock?",
+          "options": {
+            "A": "Circular wait",
+            "B": "Mutual exclusion",
+            "C": "Preemption",
+            "D": "Hold and wait"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 2,
+          "category": "Operating Systems",
+          "question": "Which scheduling algorithm gives the minimum average waiting time when all processes arrive at the same time?",
+          "options": {
+            "A": "Round Robin",
+            "B": "FCFS",
+            "C": "Priority",
+            "D": "SJF"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 3,
+          "category": "Operating Systems",
+          "question": "In a paging system, the size of a page and the size of a frame are:",
+          "options": {
+            "A": "Equal",
+            "B": "Page is larger",
+            "C": "Unrelated",
+            "D": "Frame is larger"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 4,
+          "category": "Operating Systems",
+          "question": "What is the main purpose of the TLB (Translation Lookaside Buffer)?",
+          "options": {
+            "A": "Increase disk space",
+            "B": "Store files",
+            "C": "Schedule processes",
+            "D": "Speed up address translation"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 5,
+          "category": "Operating Systems",
+          "question": "Which of the following is a preemptive scheduling algorithm?",
+          "options": {
+            "A": "Non-preemptive SJF",
+            "B": "FCFS",
+            "C": "Non-preemptive Priority",
+            "D": "Round Robin"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 6,
+          "category": "Operating Systems",
+          "question": "The wait() and signal() operations on a semaphore must be:",
+          "options": {
+            "A": "Atomic (indivisible)",
+            "B": "Recursive",
+            "C": "Optional",
+            "D": "Slow"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 7,
+          "category": "Operating Systems",
+          "question": "Which system call is used to create a new process in UNIX/Linux?",
+          "options": {
+            "A": "fork()",
+            "B": "exit()",
+            "C": "exec()",
+            "D": "wait()"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 8,
+          "category": "Operating Systems",
+          "question": "Paging mainly suffers from which type of fragmentation?",
+          "options": {
+            "A": "Both always",
+            "B": "Internal fragmentation",
+            "C": "External fragmentation",
+            "D": "None"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 9,
+          "category": "Operating Systems",
+          "question": "What is a zombie process?",
+          "options": {
+            "A": "A process stuck in an infinite loop",
+            "B": "A finished process whose entry still remains in the process table",
+            "C": "A process using 100% CPU",
+            "D": "A process with no parent memory"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 10,
+          "category": "Operating Systems",
+          "question": "Which disk scheduling algorithm moves the head in one direction to the end, then reverses (the \"elevator\" algorithm)?",
+          "options": {
+            "A": "SSTF",
+            "B": "FCFS",
+            "C": "Random",
+            "D": "SCAN"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 11,
+          "category": "Data Structures",
+          "question": "What is the height of a complete binary tree with n nodes (height of a single root node = 0)?",
+          "options": {
+            "A": "n²",
+            "B": "⌊log₂ n⌋",
+            "C": "n",
+            "D": "n / 2"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 12,
+          "category": "Data Structures",
+          "question": "Which data structure is best suited to implement a priority queue?",
+          "options": {
+            "A": "Stack",
+            "B": "Singly linked list",
+            "C": "Array only",
+            "D": "Heap"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 13,
+          "category": "Data Structures",
+          "question": "What is the time complexity of inserting a node at the beginning of a singly linked list?",
+          "options": {
+            "A": "O(log n)",
+            "B": "O(1)",
+            "C": "O(n²)",
+            "D": "O(n)"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 14,
+          "category": "Data Structures",
+          "question": "Which of the following sorting algorithms is stable?",
+          "options": {
+            "A": "Heap Sort",
+            "B": "Merge Sort",
+            "C": "Selection Sort",
+            "D": "Quick Sort"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 15,
+          "category": "Data Structures",
+          "question": "Handling collisions in a hash table by keeping a linked list at each index is called:",
+          "options": {
+            "A": "Linear probing",
+            "B": "Chaining",
+            "C": "Double hashing",
+            "D": "Rehashing"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 16,
+          "category": "Data Structures",
+          "question": "How many leaf nodes does a full binary tree with 15 nodes have?",
+          "options": {
+            "A": "7",
+            "B": "9",
+            "C": "8",
+            "D": "15"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 17,
+          "category": "Data Structures",
+          "question": "Which traversal of an expression tree gives the postfix expression?",
+          "options": {
+            "A": "Postorder",
+            "B": "Preorder",
+            "C": "Inorder",
+            "D": "Level order"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 18,
+          "category": "Data Structures",
+          "question": "What is the time complexity of Merge Sort in all cases?",
+          "options": {
+            "A": "O(log n)",
+            "B": "O(n²)",
+            "C": "O(n)",
+            "D": "O(n log n)"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 19,
+          "category": "Data Structures",
+          "question": "Which graph representation always needs O(V²) space?",
+          "options": {
+            "A": "Incidence list",
+            "B": "Adjacency matrix",
+            "C": "Edge list",
+            "D": "Adjacency list"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 20,
+          "category": "Data Structures",
+          "question": "Which algorithm finds the shortest path from a single source in a graph with non-negative edge weights?",
+          "options": {
+            "A": "Topological sort",
+            "B": "Prim's",
+            "C": "Kruskal's",
+            "D": "Dijkstra****'****s"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 21,
+          "category": "Object Oriented Software Engineering (OOSE)",
+          "question": "Which UML relationship represents a \"has-a\" relationship where the part can exist independently of the whole?",
+          "options": {
+            "A": "Composition",
+            "B": "Aggregation",
+            "C": "Dependency",
+            "D": "Inheritance"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 22,
+          "category": "Object Oriented Software Engineering (OOSE)",
+          "question": "What does the \"S\" in the SOLID principles stand for?",
+          "options": {
+            "A": "Single Responsibility",
+            "B": "Separation of Concerns",
+            "C": "Software Design",
+            "D": "Structured Programming"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 23,
+          "category": "Object Oriented Software Engineering (OOSE)",
+          "question": "Which design pattern ensures that only one instance of a class exists?",
+          "options": {
+            "A": "Adapter",
+            "B": "Singleton",
+            "C": "Observer",
+            "D": "Factory"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 24,
+          "category": "Object Oriented Software Engineering (OOSE)",
+          "question": "Black-box testing is performed:",
+          "options": {
+            "A": "Without knowledge of the internal code",
+            "B": "By examining the internal code structure",
+            "C": "Only after deployment",
+            "D": "Only by developers"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 25,
+          "category": "Object Oriented Software Engineering (OOSE)",
+          "question": "Which UML diagram models the different states of an object during its lifetime?",
+          "options": {
+            "A": "State machine diagram",
+            "B": "Class diagram",
+            "C": "Deployment diagram",
+            "D": "Package diagram"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 26,
+          "category": "Object Oriented Software Engineering (OOSE)",
+          "question": "Which of the following is a creational design pattern?",
+          "options": {
+            "A": "Observer",
+            "B": "Decorator",
+            "C": "Factory",
+            "D": "Adapter"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 27,
+          "category": "Object Oriented Software Engineering (OOSE)",
+          "question": "Cohesion refers to:",
+          "options": {
+            "A": "How closely the elements inside a module are related",
+            "B": "The size of the software",
+            "C": "How strongly modules depend on each other",
+            "D": "The cost of the project"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 28,
+          "category": "Object Oriented Software Engineering (OOSE)",
+          "question": "Which SDLC phase produces the SRS document?",
+          "options": {
+            "A": "Maintenance",
+            "B": "Requirements analysis",
+            "C": "Coding",
+            "D": "Testing"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 29,
+          "category": "Object Oriented Software Engineering (OOSE)",
+          "question": "Which of the following is a non-functional requirement?",
+          "options": {
+            "A": "User can log in",
+            "B": "System must respond within 2 seconds",
+            "C": "User can print a report",
+            "D": "Admin can add a new user"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 30,
+          "category": "Object Oriented Software Engineering (OOSE)",
+          "question": "Regression testing is done to:",
+          "options": {
+            "A": "Ensure that recent changes have not broken existing functionality",
+            "B": "Measure the code size",
+            "C": "Test only the user interface",
+            "D": "Check the software on a new platform"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 31,
+          "category": "Java Programming",
+          "question": "Which of the following cannot be instantiated in Java?",
+          "options": {
+            "A": "A public class",
+            "B": "A final class",
+            "C": "An abstract class",
+            "D": "A static class"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 32,
+          "category": "Java Programming",
+          "question": "What is the output of: String a = \"Hi\"; String b = \"Hi\"; System.out.println(a == b);",
+          "options": {
+            "A": "Runtime error",
+            "B": "false",
+            "C": "Compilation error",
+            "D": "true"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 33,
+          "category": "Java Programming",
+          "question": "Which collection class maintains insertion order and allows duplicate elements?",
+          "options": {
+            "A": "TreeSet",
+            "B": "HashMap",
+            "C": "ArrayList",
+            "D": "HashSet"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 34,
+          "category": "Java Programming",
+          "question": "Which keyword is used to explicitly throw an exception in Java?",
+          "options": {
+            "A": "try",
+            "B": "catch",
+            "C": "throw",
+            "D": "throws"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 35,
+          "category": "Java Programming",
+          "question": "Which method should be used to compare the contents of two Strings?",
+          "options": {
+            "A": "==",
+            "B": "compare()",
+            "C": "is()",
+            "D": "equals()"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 36,
+          "category": "Java Programming",
+          "question": "Which interface is commonly implemented to define the task of a thread?",
+          "options": {
+            "A": "Runnable",
+            "B": "Cloneable",
+            "C": "Serializable",
+            "D": "Comparable"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 37,
+          "category": "Java Programming",
+          "question": "Which statement about constructors in Java is correct?",
+          "options": {
+            "A": "They can be declared final",
+            "B": "They have no return type",
+            "C": "They can be inherited",
+            "D": "They can be declared abstract"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 38,
+          "category": "Java Programming",
+          "question": "Which loop is guaranteed to execute its body at least once?",
+          "options": {
+            "A": "for-each",
+            "B": "do-while",
+            "C": "while",
+            "D": "for"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 39,
+          "category": "Java Programming",
+          "question": "What is the default value of a boolean instance variable in Java?",
+          "options": {
+            "A": "0",
+            "B": "true",
+            "C": "false",
+            "D": "null"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 40,
+          "category": "Java Programming",
+          "question": "Which package is imported automatically in every Java program?",
+          "options": {
+            "A": "java.io",
+            "B": "java.lang",
+            "C": "java.util",
+            "D": "java.net"
+          },
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "section": "Hard",
+      "questions": [
+        {
+          "id": 1,
+          "category": "Operating Systems",
+          "question": "Reference string: 1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5 with 4 frames using FIFO. How many page faults occur?",
+          "options": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "11"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 2,
+          "category": "Operating Systems",
+          "question": "Banker's algorithm is used for:",
+          "options": {
+            "A": "Deadlock recovery",
+            "B": "Deadlock avoidance",
+            "C": "Memory allocation",
+            "D": "Deadlock prevention"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 3,
+          "category": "Operating Systems",
+          "question": "TLB hit ratio = 80%, TLB access time = 20 ns, memory access time = 100 ns. What is the effective memory access time?",
+          "options": {
+            "A": "140 ns",
+            "B": "120 ns",
+            "C": "160 ns",
+            "D": "180 ns"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 4,
+          "category": "Operating Systems",
+          "question": "Processes: P1 (arrival 0, burst 5), P2 (arrival 1, burst 3), P3 (arrival 2, burst 1). What is the average waiting time under SRTF (preemptive SJF)?",
+          "options": {
+            "A": "2.00 ms",
+            "B": "2.33 ms",
+            "C": "1.33 ms",
+            "D": "1.67 ms"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 5,
+          "category": "Operating Systems",
+          "question": "Priority inversion occurs when:",
+          "options": {
+            "A": "A low-priority process runs before a high-priority one that is ready to run",
+            "B": "Two processes have the same priority",
+            "C": "A high-priority process waits for a resource held by a lower-priority process",
+            "D": "The priority of a process is decreased by aging"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 6,
+          "category": "Operating Systems",
+          "question": "Which information is NOT stored in a UNIX inode?",
+          "options": {
+            "A": "File size",
+            "B": "Pointers to data blocks",
+            "C": "File name",
+            "D": "File permissions"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 7,
+          "category": "Operating Systems",
+          "question": "A system has a 32-bit logical address and a 4 KB page size. How many entries are there in a single-level page table?",
+          "options": {
+            "A": "2^10",
+            "B": "2^12",
+            "C": "2^32",
+            "D": "2^20"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 8,
+          "category": "Operating Systems",
+          "question": "Peterson's solution to the critical section problem works for how many processes?",
+          "options": {
+            "A": "Three",
+            "B": "One",
+            "C": "Two",
+            "D": "Any number"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 9,
+          "category": "Operating Systems",
+          "question": "The best-fit memory allocation strategy tends to produce:",
+          "options": {
+            "A": "Many tiny, unusable holes",
+            "B": "Only internal fragmentation",
+            "C": "No fragmentation",
+            "D": "Very large leftover holes"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 10,
+          "category": "Operating Systems",
+          "question": "A system has 3 processes, each needing 2 units of a resource. What is the minimum number of resource units that guarantees deadlock freedom?",
+          "options": {
+            "A": "4",
+            "B": "3",
+            "C": "5",
+            "D": "6"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 11,
+          "category": "Data Structures",
+          "question": "What is the maximum number of nodes in a binary tree of height h (root at height 0)?",
+          "options": {
+            "A": "2^h − 1",
+            "B": "h²",
+            "C": "2^(h+1) − 1",
+            "D": "2^h"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 12,
+          "category": "Data Structures",
+          "question": "In an AVL tree, a Left-Right (LR) imbalance is fixed by:",
+          "options": {
+            "A": "A single right rotation",
+            "B": "A left rotation followed by a right rotation",
+            "C": "A right rotation followed by a left rotation",
+            "D": "A single left rotation"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 13,
+          "category": "Data Structures",
+          "question": "What is the time complexity of building a heap from n elements using the bottom-up (heapify) method?",
+          "options": {
+            "A": "O(n)",
+            "B": "O(n log n)",
+            "C": "O(n²)",
+            "D": "O(log n)"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 14,
+          "category": "Data Structures",
+          "question": "A tree has preorder A B D E C F and inorder D B E A F C. What is its postorder traversal?",
+          "options": {
+            "A": "D B E F C A",
+            "B": "E D B F C A",
+            "C": "D E B F C A",
+            "D": "D E B C F A"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 15,
+          "category": "Data Structures",
+          "question": "How many structurally different binary search trees can be built with 3 distinct keys?",
+          "options": {
+            "A": "4",
+            "B": "3",
+            "C": "5",
+            "D": "6"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 16,
+          "category": "Data Structures",
+          "question": "Which data structure is used in Kruskal's algorithm to detect cycles?",
+          "options": {
+            "A": "Queue",
+            "B": "Hash table",
+            "C": "Stack",
+            "D": "Disjoint Set (Union-Find)"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 17,
+          "category": "Data Structures",
+          "question": "What is the time complexity of Dijkstra's algorithm using a binary heap (V vertices, E edges)?",
+          "options": {
+            "A": "O(V²)",
+            "B": "O(V log E + E)",
+            "C": "O((V + E) log V)",
+            "D": "O(E²)"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 18,
+          "category": "Data Structures",
+          "question": "What is the worst-case time complexity of searching in a hash table with chaining?",
+          "options": {
+            "A": "O(log n)",
+            "B": "O(n log n)",
+            "C": "O(n)",
+            "D": "O(1)"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 19,
+          "category": "Data Structures",
+          "question": "A circular queue is implemented with an array of size n, and it is considered full when (rear + 1) % n == front. How many elements can it hold at most?",
+          "options": {
+            "A": "n",
+            "B": "n / 2",
+            "C": "n − 1",
+            "D": "n + 1"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 20,
+          "category": "Data Structures",
+          "question": "Which sorting algorithm is in-place and also has O(n log n) worst-case time complexity?",
+          "options": {
+            "A": "Quick Sort",
+            "B": "Heap Sort",
+            "C": "Merge Sort",
+            "D": "Counting Sort"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 21,
+          "category": "Object Oriented Software Engineering (OOSE)",
+          "question": "The Liskov Substitution Principle states that:",
+          "options": {
+            "A": "Classes should depend on abstractions",
+            "B": "Interfaces should be small and specific",
+            "C": "Objects of a superclass should be replaceable by objects of its subclasses without breaking the program",
+            "D": "A class should have only one reason to change"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 22,
+          "category": "Object Oriented Software Engineering (OOSE)",
+          "question": "The Observer pattern defines:",
+          "options": {
+            "A": "A single global access point to an object",
+            "B": "A way to create objects without specifying their class",
+            "C": "A one-to-many dependency so dependents are notified when one object changes state",
+            "D": "A way to add behaviour to an object dynamically"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 23,
+          "category": "Object Oriented Software Engineering (OOSE)",
+          "question": "Cyclomatic complexity of a flow graph with E edges, N nodes and one connected component is:",
+          "options": {
+            "A": "E − N + 2",
+            "B": "E + N − 2",
+            "C": "N − E + 1",
+            "D": "E × N"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 24,
+          "category": "Object Oriented Software Engineering (OOSE)",
+          "question": "Which type of coupling is the strongest (worst) among the following?",
+          "options": {
+            "A": "Data coupling",
+            "B": "Stamp coupling",
+            "C": "Control coupling",
+            "D": "Content coupling"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 25,
+          "category": "Object Oriented Software Engineering (OOSE)",
+          "question": "In the COCOMO model, which mode is used for projects with tight hardware, software and operational constraints?",
+          "options": {
+            "A": "Organic",
+            "B": "Semi-detached",
+            "C": "Basic",
+            "D": "Embedded"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 26,
+          "category": "Object Oriented Software Engineering (OOSE)",
+          "question": "Which design pattern provides a unified, simplified interface to a set of interfaces in a subsystem?",
+          "options": {
+            "A": "Facade",
+            "B": "Prototype",
+            "C": "Proxy",
+            "D": "Strategy"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 27,
+          "category": "Object Oriented Software Engineering (OOSE)",
+          "question": "The Dependency Inversion Principle states that:",
+          "options": {
+            "A": "Clients should not depend on methods they do not use",
+            "B": "A class should be open for extension but closed for modification",
+            "C": "Subclasses must be substitutable for their base classes",
+            "D": "High-level modules should depend on abstractions, not on low-level modules"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 28,
+          "category": "Object Oriented Software Engineering (OOSE)",
+          "question": "Which black-box testing technique divides input data into valid and invalid groups and tests one value from each?",
+          "options": {
+            "A": "Path testing",
+            "B": "Statement coverage",
+            "C": "Boundary value analysis",
+            "D": "Equivalence partitioning"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 29,
+          "category": "Object Oriented Software Engineering (OOSE)",
+          "question": "In a composition relationship, if the whole object is destroyed, then:",
+          "options": {
+            "A": "The parts are also destroyed",
+            "B": "The parts continue to exist independently",
+            "C": "Nothing changes",
+            "D": "The parts become global objects"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 30,
+          "category": "Object Oriented Software Engineering (OOSE)",
+          "question": "The Open/Closed Principle states that software entities should be:",
+          "options": {
+            "A": "Closed for both",
+            "B": "Open for extension, closed for modification",
+            "C": "Open for both extension and modification",
+            "D": "Open for modification, closed for extension"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 31,
+          "category": "Java Programming",
+          "question": "What is the output of: int x = 5; System.out.println(x++ + ++x);",
+          "options": {
+            "A": "12",
+            "B": "10",
+            "C": "11",
+            "D": "13"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 32,
+          "category": "Java Programming",
+          "question": "In which situation will the finally block NOT execute?",
+          "options": {
+            "A": "An exception is thrown in try",
+            "B": "A break statement is in the try block",
+            "C": "A return statement is in the try block",
+            "D": "System.exit(0) is called in the try block"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 33,
+          "category": "Java Programming",
+          "question": "Which statement about HashMap is true?",
+          "options": {
+            "A": "It is synchronized by default",
+            "B": "It does not allow null keys or values",
+            "C": "It maintains insertion order",
+            "D": "It allows one null key and multiple null values"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 34,
+          "category": "Java Programming",
+          "question": "What is the output of: String s = \"abc\"; s.concat(\"d\"); System.out.println(s);",
+          "options": {
+            "A": "Compilation error",
+            "B": "abcd",
+            "C": "d",
+            "D": "abc"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 35,
+          "category": "Java Programming",
+          "question": "Which keyword ensures that a variable is always read from main memory and not from a thread's local cache?",
+          "options": {
+            "A": "volatile",
+            "B": "final",
+            "C": "transient",
+            "D": "static"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 36,
+          "category": "Java Programming",
+          "question": "Which of the following is NOT allowed when overriding a method?",
+          "options": {
+            "A": "Increasing the access level (e.g., protected to public)",
+            "B": "Keeping the same method signature",
+            "C": "Using a covariant return type",
+            "D": "Reducing the access level (e.g., public to private)"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 37,
+          "category": "Java Programming",
+          "question": "What is the output of: Integer a = 128, b = 128; System.out.println(a == b);",
+          "options": {
+            "A": "ArithmeticException",
+            "B": "false",
+            "C": "Compilation error",
+            "D": "true"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 38,
+          "category": "Java Programming",
+          "question": "Which statement about interfaces in Java 8 and later is correct?",
+          "options": {
+            "A": "Interfaces can have default and static methods with a body",
+            "B": "Interfaces cannot have any method with a body",
+            "C": "Interfaces can have constructors",
+            "D": "Interfaces can be instantiated"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 39,
+          "category": "Java Programming",
+          "question": "What does the transient keyword do?",
+          "options": {
+            "A": "Makes a variable constant",
+            "B": "Prevents a field from being serialized",
+            "C": "Makes a variable shared across objects",
+            "D": "Makes a method thread-safe"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 40,
+          "category": "Java Programming",
+          "question": "What is the key difference between wait() and sleep()?",
+          "options": {
+            "A": "sleep() releases the monitor lock, wait() does not",
+            "B": "Neither can be interrupted",
+            "C": "wait() releases the monitor lock, sleep() does not",
+            "D": "Both release the lock"
+          },
+          "answer": "C"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,962 @@
+[
+  {
+    "id": 1,
+    "category": "Operating Systems",
+    "question": "The operating system acts as an interface between:",
+    "options": {
+      "A": "User and hardware",
+      "B": "RAM and ROM",
+      "C": "User and compiler",
+      "D": "Hardware and network"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 2,
+    "category": "Operating Systems",
+    "question": "Which of the following is NOT an operating system?",
+    "options": {
+      "A": "Linux",
+      "B": "macOS",
+      "C": "Oracle",
+      "D": "Windows"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 3,
+    "category": "Operating Systems",
+    "question": "Which scheduling algorithm executes processes in the order they arrive?",
+    "options": {
+      "A": "SJF",
+      "B": "Round Robin",
+      "C": "FCFS",
+      "D": "Priority"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 4,
+    "category": "Operating Systems",
+    "question": "Which of the following is the fastest memory?",
+    "options": {
+      "A": "Hard disk",
+      "B": "RAM",
+      "C": "Register",
+      "D": "ROM"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 5,
+    "category": "Operating Systems",
+    "question": "A situation where processes wait for each other forever is called:",
+    "options": {
+      "A": "Paging",
+      "B": "Deadlock",
+      "C": "Booting",
+      "D": "Spooling"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 6,
+    "category": "Operating Systems",
+    "question": "Which CPU scheduling algorithm can lead to starvation of low-priority processes?",
+    "options": {
+      "A": "Priority Scheduling",
+      "B": "FCFS",
+      "C": "Round Robin",
+      "D": "Multilevel Feedback with aging"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 7,
+    "category": "Operating Systems",
+    "question": "Belady's anomaly can occur in which page replacement algorithm?",
+    "options": {
+      "A": "FIFO",
+      "B": "MRU",
+      "C": "LRU",
+      "D": "Optimal"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 8,
+    "category": "Operating Systems",
+    "question": "Which of the following is used to solve the critical section problem?",
+    "options": {
+      "A": "Swapping",
+      "B": "Spooling",
+      "C": "Semaphore",
+      "D": "Paging"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 9,
+    "category": "Operating Systems",
+    "question": "What is the smallest unit of CPU utilization?",
+    "options": {
+      "A": "Program",
+      "B": "Thread",
+      "C": "Process",
+      "D": "Job"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 10,
+    "category": "Operating Systems",
+    "question": "Which memory management technique divides memory into fixed-size blocks?",
+    "options": {
+      "A": "Segmentation",
+      "B": "Swapping",
+      "C": "Spooling",
+      "D": "Paging"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 11,
+    "category": "Operating Systems",
+    "question": "Which is the core part of an operating system?",
+    "options": {
+      "A": "Shell",
+      "B": "BIOS",
+      "C": "Kernel",
+      "D": "Compiler"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 12,
+    "category": "Operating Systems",
+    "question": "A process in the ready state is waiting for:",
+    "options": {
+      "A": "I/O",
+      "B": "Memory",
+      "C": "Printer",
+      "D": "CPU"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 13,
+    "category": "Operating Systems",
+    "question": "Which of the following is NOT a process state?",
+    "options": {
+      "A": "Waiting",
+      "B": "Compiling",
+      "C": "Ready",
+      "D": "Running"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 14,
+    "category": "Operating Systems",
+    "question": "The time quantum is used in which scheduling algorithm?",
+    "options": {
+      "A": "FCFS",
+      "B": "Round Robin",
+      "C": "Priority",
+      "D": "SJF"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 15,
+    "category": "Operating Systems",
+    "question": "Virtual memory allows execution of processes that are:",
+    "options": {
+      "A": "Larger than physical RAM",
+      "B": "Without any memory",
+      "C": "Only stored in ROM",
+      "D": "Only smaller than cache"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 16,
+    "category": "Operating Systems",
+    "question": "Which Linux command lists the files in a directory?",
+    "options": {
+      "A": "mv",
+      "B": "ls",
+      "C": "rm",
+      "D": "cd"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 17,
+    "category": "Operating Systems",
+    "question": "Which page replacement algorithm replaces the page that will not be used for the longest time?",
+    "options": {
+      "A": "Clock",
+      "B": "FIFO",
+      "C": "LRU",
+      "D": "Optimal"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 18,
+    "category": "Operating Systems",
+    "question": "Mutual exclusion is one of the necessary conditions for:",
+    "options": {
+      "A": "Booting",
+      "B": "Caching",
+      "C": "Deadlock",
+      "D": "Paging"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 19,
+    "category": "Operating Systems",
+    "question": "Bootstrapping is the process of:",
+    "options": {
+      "A": "Loading a compiler into RAM",
+      "B": "Clearing the cache",
+      "C": "Loading the OS into main memory",
+      "D": "Copying files to disk"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 20,
+    "category": "Operating Systems",
+    "question": "A context switch is:",
+    "options": {
+      "A": "Saving the state of one process and loading another",
+      "B": "Switching the monitor",
+      "C": "Changing the user account",
+      "D": "Rebooting the system"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 21,
+    "category": "Data Structures",
+    "question": "Which data structure follows the LIFO principle?",
+    "options": {
+      "A": "Queue",
+      "B": "Array",
+      "C": "Stack",
+      "D": "Tree"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 22,
+    "category": "Data Structures",
+    "question": "Which data structure follows the FIFO principle?",
+    "options": {
+      "A": "Heap",
+      "B": "Graph",
+      "C": "Queue",
+      "D": "Stack"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 23,
+    "category": "Data Structures",
+    "question": "Which data structure uses nodes connected by pointers?",
+    "options": {
+      "A": "Matrix",
+      "B": "Array",
+      "C": "Linked List",
+      "D": "String"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 24,
+    "category": "Data Structures",
+    "question": "What is the time complexity of accessing an array element by its index?",
+    "options": {
+      "A": "O(n²)",
+      "B": "O(log n)",
+      "C": "O(n)",
+      "D": "O(1)"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 25,
+    "category": "Data Structures",
+    "question": "Which of the following is a non-linear data structure?",
+    "options": {
+      "A": "Tree",
+      "B": "Queue",
+      "C": "Stack",
+      "D": "Array"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 26,
+    "category": "Data Structures",
+    "question": "Which data structure is used to implement Breadth First Search (BFS)?",
+    "options": {
+      "A": "Queue",
+      "B": "Linked List",
+      "C": "Stack",
+      "D": "Heap"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 27,
+    "category": "Data Structures",
+    "question": "What does an inorder traversal of a Binary Search Tree produce?",
+    "options": {
+      "A": "Random order",
+      "B": "Elements in ascending order",
+      "C": "Elements in descending order",
+      "D": "Elements in level order"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 28,
+    "category": "Data Structures",
+    "question": "What is the worst-case time complexity of Quick Sort?",
+    "options": {
+      "A": "O(log n)",
+      "B": "O(n)",
+      "C": "O(n²)",
+      "D": "O(n log n)"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 29,
+    "category": "Data Structures",
+    "question": "Which data structure is used to implement Depth First Search (DFS)?",
+    "options": {
+      "A": "Heap",
+      "B": "Stack",
+      "C": "Hash table",
+      "D": "Queue"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 30,
+    "category": "Data Structures",
+    "question": "Binary search can be applied only on an array that is:",
+    "options": {
+      "A": "Empty",
+      "B": "Circular",
+      "C": "Unsorted",
+      "D": "Sorted"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 31,
+    "category": "Data Structures",
+    "question": "What is the time complexity of binary search?",
+    "options": {
+      "A": "O(n log n)",
+      "B": "O(n)",
+      "C": "O(log n)",
+      "D": "O(1)"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 32,
+    "category": "Data Structures",
+    "question": "What is the maximum number of children a node can have in a binary tree?",
+    "options": {
+      "A": "Unlimited",
+      "B": "3",
+      "C": "1",
+      "D": "2"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 33,
+    "category": "Data Structures",
+    "question": "Which data structure is used to evaluate postfix expressions?",
+    "options": {
+      "A": "Graph",
+      "B": "Tree",
+      "C": "Queue",
+      "D": "Stack"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 34,
+    "category": "Data Structures",
+    "question": "In a max heap, the root node contains:",
+    "options": {
+      "A": "The largest element",
+      "B": "A random element",
+      "C": "The smallest element",
+      "D": "The median element"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 35,
+    "category": "Data Structures",
+    "question": "Hashing maps a key to an index using:",
+    "options": {
+      "A": "Recursion",
+      "B": "Sorting",
+      "C": "A hash function",
+      "D": "Traversal"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 36,
+    "category": "Data Structures",
+    "question": "Which sorting algorithm has a best-case time complexity of O(n)?",
+    "options": {
+      "A": "Heap Sort",
+      "B": "Insertion Sort",
+      "C": "Selection Sort",
+      "D": "Merge Sort"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 37,
+    "category": "Data Structures",
+    "question": "What is the main advantage of a circular queue over a linear queue?",
+    "options": {
+      "A": "It stores duplicates only",
+      "B": "It reuses empty space efficiently",
+      "C": "It sorts elements automatically",
+      "D": "It needs no memory"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 38,
+    "category": "Data Structures",
+    "question": "A connected graph with no cycles is called a:",
+    "options": {
+      "A": "Tree",
+      "B": "Digraph",
+      "C": "Complete graph",
+      "D": "Multigraph"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 39,
+    "category": "Data Structures",
+    "question": "Which tree traversal visits the root node first?",
+    "options": {
+      "A": "Level order",
+      "B": "Postorder",
+      "C": "Inorder",
+      "D": "Preorder"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 40,
+    "category": "Data Structures",
+    "question": "How many edges does a tree with n nodes have?",
+    "options": {
+      "A": "2n",
+      "B": "n − 1",
+      "C": "n",
+      "D": "n + 1"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 41,
+    "category": "Java Programming",
+    "question": "Who developed the Java language?",
+    "options": {
+      "A": "Bjarne Stroustrup",
+      "B": "James Gosling",
+      "C": "Guido van Rossum",
+      "D": "Dennis Ritchie"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 42,
+    "category": "Java Programming",
+    "question": "What is the file extension of a compiled Java file?",
+    "options": {
+      "A": ".java",
+      "B": ".exe",
+      "C": ".jar",
+      "D": ".class"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 43,
+    "category": "Java Programming",
+    "question": "Which keyword is used to create an object in Java?",
+    "options": {
+      "A": "object",
+      "B": "make",
+      "C": "create",
+      "D": "new"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 44,
+    "category": "Java Programming",
+    "question": "Which keyword is used to inherit a class in Java?",
+    "options": {
+      "A": "implements",
+      "B": "inherits",
+      "C": "extends",
+      "D": "super"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 45,
+    "category": "Java Programming",
+    "question": "Execution of a Java program starts from which method?",
+    "options": {
+      "A": "start()",
+      "B": "init()",
+      "C": "run()",
+      "D": "main()"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 46,
+    "category": "Java Programming",
+    "question": "Which of the following is NOT a primitive data type in Java?",
+    "options": {
+      "A": "String",
+      "B": "char",
+      "C": "double",
+      "D": "boolean"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 47,
+    "category": "Java Programming",
+    "question": "Which keyword is used to prevent a class from being inherited?",
+    "options": {
+      "A": "final",
+      "B": "static",
+      "C": "private",
+      "D": "abstract"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 48,
+    "category": "Java Programming",
+    "question": "Which concept allows a method to have the same name but different parameters in the same class?",
+    "options": {
+      "A": "Overloading",
+      "B": "Encapsulation",
+      "C": "Overriding",
+      "D": "Abstraction"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 49,
+    "category": "Java Programming",
+    "question": "Which command is used to compile a Java source file?",
+    "options": {
+      "A": "javadoc",
+      "B": "javac",
+      "C": "jar",
+      "D": "java"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 50,
+    "category": "Java Programming",
+    "question": "What is the default value of an int instance variable in Java?",
+    "options": {
+      "A": "undefined",
+      "B": "null",
+      "C": "0",
+      "D": "1"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 51,
+    "category": "Java Programming",
+    "question": "Which block always executes in Java exception handling?",
+    "options": {
+      "A": "catch",
+      "B": "throw",
+      "C": "finally",
+      "D": "try"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 52,
+    "category": "Java Programming",
+    "question": "Which class is the parent of all classes in Java?",
+    "options": {
+      "A": "System",
+      "B": "String",
+      "C": "Class",
+      "D": "Object"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 53,
+    "category": "Java Programming",
+    "question": "Which keyword refers to the current object in Java?",
+    "options": {
+      "A": "super",
+      "B": "current",
+      "C": "this",
+      "D": "self"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 54,
+    "category": "Java Programming",
+    "question": "Which collection does NOT allow duplicate elements?",
+    "options": {
+      "A": "ArrayList",
+      "B": "List",
+      "C": "Vector",
+      "D": "Set"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 55,
+    "category": "Java Programming",
+    "question": "Which keyword is used to declare an interface in Java?",
+    "options": {
+      "A": "class",
+      "B": "interface",
+      "C": "abstract",
+      "D": "implements"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 56,
+    "category": "Java Programming",
+    "question": "In a Java array, the index starts from:",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "−1",
+      "D": "It depends on the array"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 57,
+    "category": "Java Programming",
+    "question": "Which access modifier is the most restrictive in Java?",
+    "options": {
+      "A": "private",
+      "B": "public",
+      "C": "default",
+      "D": "protected"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 58,
+    "category": "Java Programming",
+    "question": "Runtime polymorphism in Java is achieved through:",
+    "options": {
+      "A": "Method overriding",
+      "B": "Static methods",
+      "C": "Constructors",
+      "D": "Method overloading"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 59,
+    "category": "Java Programming",
+    "question": "What is the size of an int in Java?",
+    "options": {
+      "A": "4 bytes",
+      "B": "8 bytes",
+      "C": "2 bytes",
+      "D": "1 byte"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 60,
+    "category": "Java Programming",
+    "question": "Which of the following is a wrapper class in Java?",
+    "options": {
+      "A": "double",
+      "B": "int",
+      "C": "Integer",
+      "D": "float"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 61,
+    "category": "Object Oriented Software Engineering (OOSE)",
+    "question": "SDLC stands for:",
+    "options": {
+      "A": "Software Development Life Cycle",
+      "B": "Software Design Logic Cycle",
+      "C": "System Design Life Cycle",
+      "D": "System Development Language Code"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 62,
+    "category": "Object Oriented Software Engineering (OOSE)",
+    "question": "UML stands for:",
+    "options": {
+      "A": "Unified Memory Layout",
+      "B": "Unified Modeling Language",
+      "C": "United Model Logic",
+      "D": "Universal Machine Language"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 63,
+    "category": "Object Oriented Software Engineering (OOSE)",
+    "question": "Which UML diagram shows actors and their interactions with the system?",
+    "options": {
+      "A": "State diagram",
+      "B": "Sequence diagram",
+      "C": "Class diagram",
+      "D": "Use case diagram"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 64,
+    "category": "Object Oriented Software Engineering (OOSE)",
+    "question": "Wrapping data and methods together into a single unit is called:",
+    "options": {
+      "A": "Abstraction",
+      "B": "Inheritance",
+      "C": "Polymorphism",
+      "D": "Encapsulation"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 65,
+    "category": "Object Oriented Software Engineering (OOSE)",
+    "question": "Which SDLC model follows a linear, step-by-step sequence of phases?",
+    "options": {
+      "A": "Spiral",
+      "B": "Prototype",
+      "C": "Agile",
+      "D": "Waterfall"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 66,
+    "category": "Object Oriented Software Engineering (OOSE)",
+    "question": "Which UML diagram shows how objects interact with each other in time order?",
+    "options": {
+      "A": "Use case diagram",
+      "B": "Component diagram",
+      "C": "Class diagram",
+      "D": "Sequence diagram"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 67,
+    "category": "Object Oriented Software Engineering (OOSE)",
+    "question": "Which software development model handles frequently changing requirements best?",
+    "options": {
+      "A": "Big Bang",
+      "B": "Agile",
+      "C": "V-Model",
+      "D": "Waterfall"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 68,
+    "category": "Object Oriented Software Engineering (OOSE)",
+    "question": "In object-oriented design, an \"is-a\" relationship is represented by:",
+    "options": {
+      "A": "Composition",
+      "B": "Aggregation",
+      "C": "Association",
+      "D": "Inheritance"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 69,
+    "category": "Object Oriented Software Engineering (OOSE)",
+    "question": "Which is the first phase of the SDLC?",
+    "options": {
+      "A": "Coding",
+      "B": "Maintenance",
+      "C": "Requirement analysis",
+      "D": "Testing"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 70,
+    "category": "Object Oriented Software Engineering (OOSE)",
+    "question": "Testing performed by end users before final acceptance is called:",
+    "options": {
+      "A": "Regression testing",
+      "B": "Unit testing",
+      "C": "Integration testing",
+      "D": "Acceptance testing"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 71,
+    "category": "Object Oriented Software Engineering (OOSE)",
+    "question": "Which testing checks individual modules or components?",
+    "options": {
+      "A": "Unit testing",
+      "B": "Stress testing",
+      "C": "System testing",
+      "D": "Acceptance testing"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 72,
+    "category": "Object Oriented Software Engineering (OOSE)",
+    "question": "Which OOP concept hides implementation details and shows only essential features?",
+    "options": {
+      "A": "Polymorphism",
+      "B": "Abstraction",
+      "C": "Inheritance",
+      "D": "Compilation"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 73,
+    "category": "Object Oriented Software Engineering (OOSE)",
+    "question": "A class is best described as:",
+    "options": {
+      "A": "A method",
+      "B": "A database",
+      "C": "A blueprint of objects",
+      "D": "A package"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 74,
+    "category": "Object Oriented Software Engineering (OOSE)",
+    "question": "In a use case diagram, a person or external system that interacts with the system is called:",
+    "options": {
+      "A": "Node",
+      "B": "Actor",
+      "C": "Class",
+      "D": "Object"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 75,
+    "category": "Object Oriented Software Engineering (OOSE)",
+    "question": "Which of the following is a UML behavioral diagram?",
+    "options": {
+      "A": "Package diagram",
+      "B": "Class diagram",
+      "C": "Object diagram",
+      "D": "Activity diagram"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 76,
+    "category": "Object Oriented Software Engineering (OOSE)",
+    "question": "The process of finding and fixing errors in a program is called:",
+    "options": {
+      "A": "Coding",
+      "B": "Deployment",
+      "C": "Compiling",
+      "D": "Debugging"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 77,
+    "category": "Object Oriented Software Engineering (OOSE)",
+    "question": "Which SDLC phase involves fixing errors and updating software after release?",
+    "options": {
+      "A": "Maintenance",
+      "B": "Analysis",
+      "C": "Coding",
+      "D": "Design"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 78,
+    "category": "Object Oriented Software Engineering (OOSE)",
+    "question": "SRS stands for:",
+    "options": {
+      "A": "Software Response System",
+      "B": "Standard Requirement Sheet",
+      "C": "System Resource Schedule",
+      "D": "Software Requirements Specification"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 79,
+    "category": "Object Oriented Software Engineering (OOSE)",
+    "question": "A good software design should have:",
+    "options": {
+      "A": "High coupling and low cohesion",
+      "B": "High coupling and high cohesion",
+      "C": "Low coupling and high cohesion",
+      "D": "Low coupling and low cohesion"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 80,
+    "category": "Object Oriented Software Engineering (OOSE)",
+    "question": "Which SDLC model places special emphasis on risk analysis?",
+    "options": {
+      "A": "Spiral",
+      "B": "V-Model",
+      "C": "Build-and-fix",
+      "D": "Waterfall"
+    },
+    "answer": "A"
+  }
+]

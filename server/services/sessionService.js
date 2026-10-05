@@ -28,7 +28,7 @@ exports.startSession = async (participantId) => {
 
   // 3. Randomly select questions based on config
   // Level 2: 1 question from Subcategory A (Level2a), 1 from B (Level2b), 1 from C (Level2c)
-  const [l2A, l2B, l2C, level1Questions, l3IfElse, l3For, l3While] = await Promise.all([
+  const [l2A, l2B, l2C, l1Easy, l1Medium, l1Hard, l3IfElse, l3For, l3While] = await Promise.all([
     Question.aggregate([
       { $match: { level: 2, type: QUESTION_TYPES.EXIT_ROOM, subcategory: 'A', isActive: true } },
       { $sample: { size: 1 } }, { $project: { _id: 1 } }
@@ -42,8 +42,16 @@ exports.startSession = async (participantId) => {
       { $sample: { size: 1 } }, { $project: { _id: 1 } }
     ]),
     Question.aggregate([
-      { $match: { level: 1, type: QUESTION_TYPES.MCQ, isActive: true } },
-      { $sample: { size: config.level1QuestionCount || 10 } }, { $project: { _id: 1 } }
+      { $match: { level: 1, type: QUESTION_TYPES.MCQ, difficulty: 'easy', isActive: true } },
+      { $sample: { size: 5 } }, { $project: { _id: 1 } }
+    ]),
+    Question.aggregate([
+      { $match: { level: 1, type: QUESTION_TYPES.MCQ, difficulty: 'medium', isActive: true } },
+      { $sample: { size: 3 } }, { $project: { _id: 1 } }
+    ]),
+    Question.aggregate([
+      { $match: { level: 1, type: QUESTION_TYPES.MCQ, difficulty: 'hard', isActive: true } },
+      { $sample: { size: 2 } }, { $project: { _id: 1 } }
     ]),
     Question.aggregate([
       { $match: { level: 3, type: QUESTION_TYPES.GUESS_OUTPUT, category: { $regex: /^if-else/i }, isActive: true } },
@@ -58,6 +66,9 @@ exports.startSession = async (participantId) => {
       { $sample: { size: 1 } }, { $project: { _id: 1 } }
     ])
   ]);
+
+  // Shuffle Level 1 questions so they aren't always grouped by difficulty
+  const level1Questions = [...l1Easy, ...l1Medium, ...l1Hard].sort(() => 0.5 - Math.random());
 
   const level2Questions = [
     ...(l2A.length > 0 ? [l2A[0]._id] : []),
