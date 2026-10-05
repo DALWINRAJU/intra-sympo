@@ -184,6 +184,7 @@ const DashboardPage = () => {
                   <th className="p-4 text-center">L3</th>
                   <th className="p-4 text-center">Total Points</th>
                   <th className="p-4 text-center">Time Taken</th>
+                  <th className="p-4 text-center">Violations</th>
                   <th className="p-4 text-center">Status</th>
                   <th className="p-4 text-center">Actions</th>
                 </tr>
@@ -234,6 +235,15 @@ const DashboardPage = () => {
                       </td>
                       <td className="p-4 text-center font-mono text-gray-300 text-xs whitespace-nowrap">
                         {formatTime(p.timeTakenMs)}
+                      </td>
+                      <td className="p-4 text-center whitespace-nowrap">
+                        {p.violationCount > 0 ? (
+                          <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-bold bg-red-900/50 text-red-400 border border-red-700/50">
+                            ⚠️ {p.violationCount}
+                          </span>
+                        ) : (
+                          <span className="text-gray-500 text-xs">—</span>
+                        )}
                       </td>
                       <td className="p-4 text-center whitespace-nowrap">
                         <span className={`px-2.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider ${

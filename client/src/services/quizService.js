@@ -14,3 +14,13 @@ export const advanceLevel = async (targetLevel) => {
   const response = await api.post('/quiz/advance-level', { targetLevel });
   return response.data;
 };
+
+export const reportViolation = async () => {
+  try {
+    const response = await api.post('/quiz/report-violation');
+    return response.data;
+  } catch {
+    // silently ignore - don't disrupt quiz UX if this fails
+  }
+};
+

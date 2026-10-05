@@ -111,7 +111,7 @@ const ParticipantDetailModal = ({ participantId, sessionId, onClose, onDelete })
           ) : (
             <>
               {/* Score & Session Summary Cards */}
-              <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-3">
+              <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-7 gap-3">
                 <div className="bg-gray-800/60 border border-gray-700/50 p-3 rounded-xl text-center">
                   <div className="text-gray-400 text-xs uppercase font-semibold">Total Points</div>
                   <div className="text-2xl font-black text-yellow-400 mt-0.5">{session?.totalScore ?? 0}</div>
@@ -140,6 +140,20 @@ const ParticipantDetailModal = ({ participantId, sessionId, onClose, onDelete })
                   <div className="text-gray-400 text-xs uppercase font-semibold">Time Taken</div>
                   <div className="text-base font-bold text-gray-200 mt-1">
                     {timeSec > 0 ? `${minutes}m ${seconds}s` : 'Active / N/A'}
+                  </div>
+                </div>
+                <div className={`border p-3 rounded-xl text-center ${
+                  (session?.violationCount || 0) > 0 
+                    ? 'bg-red-950/40 border-red-800/60' 
+                    : 'bg-gray-800/60 border-gray-700/50'
+                }`}>
+                  <div className="text-gray-400 text-xs uppercase font-semibold">Violations</div>
+                  <div className={`text-xl font-bold mt-0.5 ${
+                    (session?.violationCount || 0) > 0 ? 'text-red-400' : 'text-green-400'
+                  }`}>
+                    {(session?.violationCount || 0) > 0 
+                      ? `⚠️ ${session.violationCount}` 
+                      : '✓ Clean'}
                   </div>
                 </div>
               </div>

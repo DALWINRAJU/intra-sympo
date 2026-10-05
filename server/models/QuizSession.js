@@ -19,6 +19,7 @@ const quizSessionSchema = new mongoose.Schema({
   level1CurrentIndex: { type: Number, default: 0 },
   level2CurrentIndex: { type: Number, default: 0 },
   level3CurrentIndex: { type: Number, default: 0 },
+  violationCount: { type: Number, default: 0 },
   sessionConfig: { type: Object, required: true }
 }, { timestamps: true });
 

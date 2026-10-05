@@ -1,5 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useLocation } from 'react-router-dom';
+import { reportViolation } from '../../services/quizService';
 
 const AntiCheatWrapper = ({ children }) => {
   const [isFullscreen, setIsFullscreen] = useState(false);
@@ -9,6 +10,13 @@ const AntiCheatWrapper = ({ children }) => {
 
   // Don't enforce on Lobby or Results pages
   const isProtectedPage = location.pathname.startsWith('/level/');
+
+  const recordViolation = useCallback(() => {
+    setShowWarning(true);
+    setViolationCount(prev => prev + 1);
+    // Report to server (fire-and-forget)
+    reportViolation();
+  }, []);
 
   useEffect(() => {
     if (!isProtectedPage) return;
@@ -20,16 +28,14 @@ const AntiCheatWrapper = ({ children }) => {
       
       // If they exited fullscreen during a protected page, show warning
       if (!isFull) {
-        setShowWarning(true);
-        setViolationCount(prev => prev + 1);
+        recordViolation();
       }
     };
 
     // Tab visibility change (switching tabs)
     const handleVisibilityChange = () => {
       if (document.hidden) {
-        setShowWarning(true);
-        setViolationCount(prev => prev + 1);
+        recordViolation();
       }
     };
 
@@ -41,16 +47,14 @@ const AntiCheatWrapper = ({ children }) => {
         (e.ctrlKey && e.key === 'u')
       ) {
         e.preventDefault();
-        setShowWarning(true);
-        setViolationCount(prev => prev + 1);
+        recordViolation();
       }
     };
 
     // Disable right click
     const handleContextMenu = (e) => {
       e.preventDefault();
-      setShowWarning(true);
-      setViolationCount(prev => prev + 1);
+      recordViolation();
     };
 
     document.addEventListener('fullscreenchange', checkFullscreen);
@@ -67,7 +71,7 @@ const AntiCheatWrapper = ({ children }) => {
       document.removeEventListener('keydown', handleKeyDown);
       document.removeEventListener('contextmenu', handleContextMenu);
     };
-  }, [isProtectedPage]);
+  }, [isProtectedPage, recordViolation]);
 
   const enforceFullscreen = async () => {
     try {
@@ -115,3 +119,4 @@ const AntiCheatWrapper = ({ children }) => {
 };
 
 export default AntiCheatWrapper;
+

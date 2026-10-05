@@ -62,6 +62,7 @@ exports.getParticipants = async ({ search, status, page = 1, limit = 50, sortBy 
     level3Score: s.level3Score || 0,
     totalScore: s.totalScore || 0,
     lives: s.lives,
+    violationCount: s.violationCount || 0,
     startTime: s.startTime,
     endTime: s.endTime,
     timeTakenMs: s.timeTakenMs || 0,

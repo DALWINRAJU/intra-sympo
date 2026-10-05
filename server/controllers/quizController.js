@@ -1,6 +1,7 @@
 const quizService = require('../services/quizService');
 const catchAsync = require('../utils/catchAsync');
 const { sendSuccess } = require('../utils/responseFormatter');
+const QuizSession = require('../models/QuizSession');
 
 exports.getQuestion = catchAsync(async (req, res) => {
   const result = await quizService.getCurrentQuestion(req.user.id);
@@ -17,4 +18,13 @@ exports.advanceLevel = catchAsync(async (req, res) => {
   const { targetLevel } = req.body;
   const session = await quizService.advanceLevel(req.user.id, targetLevel);
   sendSuccess(res, 200, { session }, `Advanced to Level ${targetLevel}`);
+});
+
+exports.reportViolation = catchAsync(async (req, res) => {
+  const session = await QuizSession.findOneAndUpdate(
+    { participant: req.user.id },
+    { $inc: { violationCount: 1 } },
+    { new: true }
+  );
+  sendSuccess(res, 200, { violationCount: session?.violationCount || 0 }, 'Violation recorded');
 });

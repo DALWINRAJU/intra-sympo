@@ -39,4 +39,6 @@ router.post('/advance-level',
   quizController.advanceLevel
 );
 
+router.post('/report-violation', quizController.reportViolation);
+
 module.exports = router;
