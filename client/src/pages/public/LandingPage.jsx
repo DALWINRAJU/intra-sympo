@@ -11,7 +11,7 @@ const LandingPage = () => {
   const [formData, setFormData] = useState({
     fullName: '',
     collegeName: '',
-    department: '',
+    year: '',
     participantId: '',
     participantPin: ''
   });
@@ -98,8 +98,8 @@ const LandingPage = () => {
               <input type="text" id="collegeName" name="collegeName" required className="input-field" onChange={handleChange} value={formData.collegeName} />
             </div>
             <div>
-              <label className="label" htmlFor="department">Department</label>
-              <input type="text" id="department" name="department" required className="input-field" onChange={handleChange} value={formData.department} />
+              <label className="label" htmlFor="year">Year</label>
+              <input type="text" id="year" name="year" required className="input-field" onChange={handleChange} value={formData.year} />
             </div>
           </>
         )}

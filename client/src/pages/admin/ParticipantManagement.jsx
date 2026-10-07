@@ -163,7 +163,7 @@ const ParticipantManagement = () => {
                       </td>
                       <td className="p-4 text-gray-300">
                         <div>{p.collegeName}</div>
-                        {p.department && <div className="text-xs text-gray-500">{p.department}</div>}
+                        {p.year && <div className="text-xs text-gray-500">{p.year}</div>}
                       </td>
                       <td className="p-4 text-center font-mono text-xs text-gray-400 whitespace-nowrap">
                         <span className="text-indigo-400 font-semibold">{p.level1Score ?? 0}</span> / {' '}
